@@ -1,0 +1,2394 @@
+{
+  "metadata": {
+    "generatedAt": "2025-08-20T10:26:46.901Z",
+    "totalQuestions": 140,
+    "lessonsProcessed": 7,
+    "questionsByDifficulty": {
+      "easy": 42,
+      "medium": 49,
+      "hard": 49
+    }
+  },
+  "questions": [
+    {
+      "id": 1400,
+      "question": "What is the place value of 5 in the number 1,523?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1401,
+      "question": "How many hundreds make one thousand?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "5"
+      ],
+      "correctAnswer": "10",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1402,
+      "question": "How do you write one thousand in numbers?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "10"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1403,
+      "question": "What is 10 × 100?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "500"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1404,
+      "question": "What is the place value of 8 in the number 2,834?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1405,
+      "question": "What number comes after 999?",
+      "options": [
+        "1000",
+        "990",
+        "1001",
+        "900"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1406,
+      "question": "In the number 3,456, what digit is in the hundreds place?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1407,
+      "question": "Which of these equals 1000?",
+      "options": [
+        "5 × 200",
+        "10 × 100",
+        "20 × 40",
+        "100 × 5"
+      ],
+      "correctAnswer": "10 × 100",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1408,
+      "question": "Which number is greater than 1000?",
+      "options": [
+        "999",
+        "1001",
+        "900",
+        "100"
+      ],
+      "correctAnswer": "1001",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1409,
+      "question": "What is the value of 5 in the number 5,432?",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "5000"
+      ],
+      "correctAnswer": "5000",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1410,
+      "question": "In the number 4,729, what digit is in the tens place?",
+      "options": [
+        "4",
+        "7",
+        "2",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1411,
+      "question": "In the number 8,156, what digit is in the thousands place?",
+      "options": [
+        "8",
+        "1",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1412,
+      "question": "What is the value of 7 in the number 1,782?",
+      "options": [
+        "7",
+        "70",
+        "700",
+        "7000"
+      ],
+      "correctAnswer": "700",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1413,
+      "question": "In the number 7,835, what is the value of the digit 8?",
+      "options": [
+        "8",
+        "80",
+        "800",
+        "8000"
+      ],
+      "correctAnswer": "800",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1414,
+      "question": "Which shows 2,345 in expanded form?",
+      "options": [
+        "2000 + 300 + 40 + 5",
+        "2 + 3 + 4 + 5",
+        "23 + 45",
+        "2345 + 0"
+      ],
+      "correctAnswer": "2000 + 300 + 40 + 5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1415,
+      "question": "If you have 15 hundreds, how many thousands do you have?",
+      "options": [
+        "1.5",
+        "15",
+        "150",
+        "1500"
+      ],
+      "correctAnswer": "1.5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1416,
+      "question": "What comes next in the pattern: 1000, 2000, 3000, ?",
+      "options": [
+        "3500",
+        "4000",
+        "5000",
+        "3100"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1417,
+      "question": "Which shows 6,742 in expanded form?",
+      "options": [
+        "6000 + 700 + 40 + 2",
+        "600 + 70 + 4 + 2",
+        "6 + 7 + 4 + 2",
+        "67 + 42"
+      ],
+      "correctAnswer": "6000 + 700 + 40 + 2",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1418,
+      "question": "A number has 4 thousands, 5 hundreds, 2 tens, and 8 ones. What is the number?",
+      "options": [
+        "4528",
+        "5428",
+        "4582",
+        "8254"
+      ],
+      "correctAnswer": "4528",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1419,
+      "question": "Round 3,678 to the nearest thousand.",
+      "options": [
+        "3000",
+        "4000",
+        "3700",
+        "3680"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 4,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2000,
+      "question": "What is the place value of 5 in the number 1,523?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2001,
+      "question": "How many hundreds make one thousand?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "5"
+      ],
+      "correctAnswer": "10",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2002,
+      "question": "How do you write one thousand in numbers?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "10"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2003,
+      "question": "What is 10 × 100?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "500"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2004,
+      "question": "What is the place value of 8 in the number 2,834?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2005,
+      "question": "What number comes after 999?",
+      "options": [
+        "1000",
+        "990",
+        "1001",
+        "900"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2006,
+      "question": "In the number 3,456, what digit is in the hundreds place?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2007,
+      "question": "Which of these equals 1000?",
+      "options": [
+        "5 × 200",
+        "10 × 100",
+        "20 × 40",
+        "100 × 5"
+      ],
+      "correctAnswer": "10 × 100",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2008,
+      "question": "Which number is greater than 1000?",
+      "options": [
+        "999",
+        "1001",
+        "900",
+        "100"
+      ],
+      "correctAnswer": "1001",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2009,
+      "question": "What is the value of 5 in the number 5,432?",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "5000"
+      ],
+      "correctAnswer": "5000",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2010,
+      "question": "In the number 4,729, what digit is in the tens place?",
+      "options": [
+        "4",
+        "7",
+        "2",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2011,
+      "question": "In the number 8,156, what digit is in the thousands place?",
+      "options": [
+        "8",
+        "1",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2012,
+      "question": "What is the value of 7 in the number 1,782?",
+      "options": [
+        "7",
+        "70",
+        "700",
+        "7000"
+      ],
+      "correctAnswer": "700",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2013,
+      "question": "In the number 7,835, what is the value of the digit 8?",
+      "options": [
+        "8",
+        "80",
+        "800",
+        "8000"
+      ],
+      "correctAnswer": "800",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2014,
+      "question": "Which shows 2,345 in expanded form?",
+      "options": [
+        "2000 + 300 + 40 + 5",
+        "2 + 3 + 4 + 5",
+        "23 + 45",
+        "2345 + 0"
+      ],
+      "correctAnswer": "2000 + 300 + 40 + 5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2015,
+      "question": "If you have 15 hundreds, how many thousands do you have?",
+      "options": [
+        "1.5",
+        "15",
+        "150",
+        "1500"
+      ],
+      "correctAnswer": "1.5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2016,
+      "question": "What comes next in the pattern: 1000, 2000, 3000, ?",
+      "options": [
+        "3500",
+        "4000",
+        "5000",
+        "3100"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2017,
+      "question": "Which shows 6,742 in expanded form?",
+      "options": [
+        "6000 + 700 + 40 + 2",
+        "600 + 70 + 4 + 2",
+        "6 + 7 + 4 + 2",
+        "67 + 42"
+      ],
+      "correctAnswer": "6000 + 700 + 40 + 2",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2018,
+      "question": "A number has 4 thousands, 5 hundreds, 2 tens, and 8 ones. What is the number?",
+      "options": [
+        "4528",
+        "5428",
+        "4582",
+        "8254"
+      ],
+      "correctAnswer": "4528",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 2019,
+      "question": "Round 3,678 to the nearest thousand.",
+      "options": [
+        "3000",
+        "4000",
+        "3700",
+        "3680"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 10,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1900,
+      "question": "What is the place value of 5 in the number 1,523?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1901,
+      "question": "How many hundreds make one thousand?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "5"
+      ],
+      "correctAnswer": "10",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1902,
+      "question": "How do you write one thousand in numbers?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "10"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1903,
+      "question": "What is 10 × 100?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "500"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1904,
+      "question": "What is the place value of 8 in the number 2,834?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1905,
+      "question": "What number comes after 999?",
+      "options": [
+        "1000",
+        "990",
+        "1001",
+        "900"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1906,
+      "question": "In the number 3,456, what digit is in the hundreds place?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1907,
+      "question": "Which of these equals 1000?",
+      "options": [
+        "5 × 200",
+        "10 × 100",
+        "20 × 40",
+        "100 × 5"
+      ],
+      "correctAnswer": "10 × 100",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1908,
+      "question": "Which number is greater than 1000?",
+      "options": [
+        "999",
+        "1001",
+        "900",
+        "100"
+      ],
+      "correctAnswer": "1001",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1909,
+      "question": "What is the value of 5 in the number 5,432?",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "5000"
+      ],
+      "correctAnswer": "5000",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1910,
+      "question": "In the number 4,729, what digit is in the tens place?",
+      "options": [
+        "4",
+        "7",
+        "2",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1911,
+      "question": "In the number 8,156, what digit is in the thousands place?",
+      "options": [
+        "8",
+        "1",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1912,
+      "question": "What is the value of 7 in the number 1,782?",
+      "options": [
+        "7",
+        "70",
+        "700",
+        "7000"
+      ],
+      "correctAnswer": "700",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1913,
+      "question": "In the number 7,835, what is the value of the digit 8?",
+      "options": [
+        "8",
+        "80",
+        "800",
+        "8000"
+      ],
+      "correctAnswer": "800",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1914,
+      "question": "Which shows 2,345 in expanded form?",
+      "options": [
+        "2000 + 300 + 40 + 5",
+        "2 + 3 + 4 + 5",
+        "23 + 45",
+        "2345 + 0"
+      ],
+      "correctAnswer": "2000 + 300 + 40 + 5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1915,
+      "question": "If you have 15 hundreds, how many thousands do you have?",
+      "options": [
+        "1.5",
+        "15",
+        "150",
+        "1500"
+      ],
+      "correctAnswer": "1.5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1916,
+      "question": "What comes next in the pattern: 1000, 2000, 3000, ?",
+      "options": [
+        "3500",
+        "4000",
+        "5000",
+        "3100"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1917,
+      "question": "Which shows 6,742 in expanded form?",
+      "options": [
+        "6000 + 700 + 40 + 2",
+        "600 + 70 + 4 + 2",
+        "6 + 7 + 4 + 2",
+        "67 + 42"
+      ],
+      "correctAnswer": "6000 + 700 + 40 + 2",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1918,
+      "question": "A number has 4 thousands, 5 hundreds, 2 tens, and 8 ones. What is the number?",
+      "options": [
+        "4528",
+        "5428",
+        "4582",
+        "8254"
+      ],
+      "correctAnswer": "4528",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1919,
+      "question": "Round 3,678 to the nearest thousand.",
+      "options": [
+        "3000",
+        "4000",
+        "3700",
+        "3680"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 9,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Idea of a thousand",
+      "lessonTitle": "Idea of a thousand"
+    },
+    {
+      "id": 1500,
+      "question": "What is the place value of 5 in the number 1,523?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1501,
+      "question": "How many hundreds make one thousand?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "5"
+      ],
+      "correctAnswer": "10",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1502,
+      "question": "How do you write one thousand in numbers?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "10"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1503,
+      "question": "What is 10 × 100?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "500"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1504,
+      "question": "What is the place value of 8 in the number 2,834?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1505,
+      "question": "What number comes after 999?",
+      "options": [
+        "1000",
+        "990",
+        "1001",
+        "900"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1506,
+      "question": "In the number 3,456, what digit is in the hundreds place?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1507,
+      "question": "Which of these equals 1000?",
+      "options": [
+        "5 × 200",
+        "10 × 100",
+        "20 × 40",
+        "100 × 5"
+      ],
+      "correctAnswer": "10 × 100",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1508,
+      "question": "Which number is greater than 1000?",
+      "options": [
+        "999",
+        "1001",
+        "900",
+        "100"
+      ],
+      "correctAnswer": "1001",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1509,
+      "question": "What is the value of 5 in the number 5,432?",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "5000"
+      ],
+      "correctAnswer": "5000",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1510,
+      "question": "In the number 4,729, what digit is in the tens place?",
+      "options": [
+        "4",
+        "7",
+        "2",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1511,
+      "question": "In the number 8,156, what digit is in the thousands place?",
+      "options": [
+        "8",
+        "1",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1512,
+      "question": "What is the value of 7 in the number 1,782?",
+      "options": [
+        "7",
+        "70",
+        "700",
+        "7000"
+      ],
+      "correctAnswer": "700",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1513,
+      "question": "In the number 7,835, what is the value of the digit 8?",
+      "options": [
+        "8",
+        "80",
+        "800",
+        "8000"
+      ],
+      "correctAnswer": "800",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1514,
+      "question": "Which shows 2,345 in expanded form?",
+      "options": [
+        "2000 + 300 + 40 + 5",
+        "2 + 3 + 4 + 5",
+        "23 + 45",
+        "2345 + 0"
+      ],
+      "correctAnswer": "2000 + 300 + 40 + 5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1515,
+      "question": "If you have 15 hundreds, how many thousands do you have?",
+      "options": [
+        "1.5",
+        "15",
+        "150",
+        "1500"
+      ],
+      "correctAnswer": "1.5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1516,
+      "question": "What comes next in the pattern: 1000, 2000, 3000, ?",
+      "options": [
+        "3500",
+        "4000",
+        "5000",
+        "3100"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1517,
+      "question": "Which shows 6,742 in expanded form?",
+      "options": [
+        "6000 + 700 + 40 + 2",
+        "600 + 70 + 4 + 2",
+        "6 + 7 + 4 + 2",
+        "67 + 42"
+      ],
+      "correctAnswer": "6000 + 700 + 40 + 2",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1518,
+      "question": "A number has 4 thousands, 5 hundreds, 2 tens, and 8 ones. What is the number?",
+      "options": [
+        "4528",
+        "5428",
+        "4582",
+        "8254"
+      ],
+      "correctAnswer": "4528",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1519,
+      "question": "Round 3,678 to the nearest thousand.",
+      "options": [
+        "3000",
+        "4000",
+        "3700",
+        "3680"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 5,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1800,
+      "question": "What is the place value of 5 in the number 1,523?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1801,
+      "question": "How many hundreds make one thousand?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "5"
+      ],
+      "correctAnswer": "10",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1802,
+      "question": "How do you write one thousand in numbers?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "10"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1803,
+      "question": "What is 10 × 100?",
+      "options": [
+        "100",
+        "1000",
+        "10000",
+        "500"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1804,
+      "question": "What is the place value of 8 in the number 2,834?",
+      "options": [
+        "ones",
+        "tens",
+        "hundreds",
+        "thousands"
+      ],
+      "correctAnswer": "hundreds",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1805,
+      "question": "What number comes after 999?",
+      "options": [
+        "1000",
+        "990",
+        "1001",
+        "900"
+      ],
+      "correctAnswer": "1000",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1806,
+      "question": "In the number 3,456, what digit is in the hundreds place?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "4",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1807,
+      "question": "Which of these equals 1000?",
+      "options": [
+        "5 × 200",
+        "10 × 100",
+        "20 × 40",
+        "100 × 5"
+      ],
+      "correctAnswer": "10 × 100",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1808,
+      "question": "Which number is greater than 1000?",
+      "options": [
+        "999",
+        "1001",
+        "900",
+        "100"
+      ],
+      "correctAnswer": "1001",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1809,
+      "question": "What is the value of 5 in the number 5,432?",
+      "options": [
+        "5",
+        "50",
+        "500",
+        "5000"
+      ],
+      "correctAnswer": "5000",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1810,
+      "question": "In the number 4,729, what digit is in the tens place?",
+      "options": [
+        "4",
+        "7",
+        "2",
+        "9"
+      ],
+      "correctAnswer": "2",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1811,
+      "question": "In the number 8,156, what digit is in the thousands place?",
+      "options": [
+        "8",
+        "1",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1812,
+      "question": "What is the value of 7 in the number 1,782?",
+      "options": [
+        "7",
+        "70",
+        "700",
+        "7000"
+      ],
+      "correctAnswer": "700",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1813,
+      "question": "In the number 7,835, what is the value of the digit 8?",
+      "options": [
+        "8",
+        "80",
+        "800",
+        "8000"
+      ],
+      "correctAnswer": "800",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1814,
+      "question": "Which shows 2,345 in expanded form?",
+      "options": [
+        "2000 + 300 + 40 + 5",
+        "2 + 3 + 4 + 5",
+        "23 + 45",
+        "2345 + 0"
+      ],
+      "correctAnswer": "2000 + 300 + 40 + 5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1815,
+      "question": "If you have 15 hundreds, how many thousands do you have?",
+      "options": [
+        "1.5",
+        "15",
+        "150",
+        "1500"
+      ],
+      "correctAnswer": "1.5",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1816,
+      "question": "What comes next in the pattern: 1000, 2000, 3000, ?",
+      "options": [
+        "3500",
+        "4000",
+        "5000",
+        "3100"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1817,
+      "question": "Which shows 6,742 in expanded form?",
+      "options": [
+        "6000 + 700 + 40 + 2",
+        "600 + 70 + 4 + 2",
+        "6 + 7 + 4 + 2",
+        "67 + 42"
+      ],
+      "correctAnswer": "6000 + 700 + 40 + 2",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1818,
+      "question": "A number has 4 thousands, 5 hundreds, 2 tens, and 8 ones. What is the number?",
+      "options": [
+        "4528",
+        "5428",
+        "4582",
+        "8254"
+      ],
+      "correctAnswer": "4528",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 1819,
+      "question": "Round 3,678 to the nearest thousand.",
+      "options": [
+        "3000",
+        "4000",
+        "3700",
+        "3680"
+      ],
+      "correctAnswer": "4000",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 8,
+      "chapterTitle": "Notation and Place Value",
+      "unitTitle": "Place Value",
+      "lessonTitle": "Place Value"
+    },
+    {
+      "id": 3800,
+      "question": "What is 3²?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "8"
+      ],
+      "correctAnswer": "9",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3801,
+      "question": "What does 4² mean?",
+      "options": [
+        "4 + 4",
+        "4 × 4",
+        "4 ÷ 4",
+        "4 - 4"
+      ],
+      "correctAnswer": "4 × 4",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3802,
+      "question": "What is √9?",
+      "options": [
+        "3",
+        "9",
+        "18",
+        "81"
+      ],
+      "correctAnswer": "3",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3803,
+      "question": "Which of these is a square number?",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "correctAnswer": "16",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3804,
+      "question": "What is 2²?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "4",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3805,
+      "question": "What is 5²?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correctAnswer": "25",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3806,
+      "question": "What is 7²?",
+      "options": [
+        "14",
+        "49",
+        "42",
+        "35"
+      ],
+      "correctAnswer": "49",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3807,
+      "question": "What is the next square number after 25?",
+      "options": [
+        "30",
+        "36",
+        "35",
+        "49"
+      ],
+      "correctAnswer": "36",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3808,
+      "question": "What is √64?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3809,
+      "question": "Which is larger: 6² or 5² + 10?",
+      "options": [
+        "6²",
+        "5² + 10",
+        "They are equal",
+        "Cannot determine"
+      ],
+      "correctAnswer": "6²",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3810,
+      "question": "What is 6²?",
+      "options": [
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "correctAnswer": "36",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3811,
+      "question": "What is 8²?",
+      "options": [
+        "60",
+        "62",
+        "64",
+        "66"
+      ],
+      "correctAnswer": "64",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3812,
+      "question": "What is √36?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "6",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3813,
+      "question": "What is 12²?",
+      "options": [
+        "144",
+        "124",
+        "164",
+        "134"
+      ],
+      "correctAnswer": "144",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3814,
+      "question": "What is √121?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "11",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3815,
+      "question": "A square garden has an area of 144 square meters. What is the length of one side?",
+      "options": [
+        "12 meters",
+        "14 meters",
+        "16 meters",
+        "18 meters"
+      ],
+      "correctAnswer": "12 meters",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3816,
+      "question": "If n² = 169, what is n?",
+      "options": [
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "correctAnswer": "13",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3817,
+      "question": "What is 9²?",
+      "options": [
+        "72",
+        "81",
+        "90",
+        "99"
+      ],
+      "correctAnswer": "81",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3818,
+      "question": "What is 10²?",
+      "options": [
+        "90",
+        "100",
+        "110",
+        "120"
+      ],
+      "correctAnswer": "100",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 3819,
+      "question": "What is √100?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctAnswer": "10",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 28,
+      "chapterTitle": "Squares and Square roots",
+      "unitTitle": "Squares of numbers up to 50",
+      "lessonTitle": "Squares of numbers up to 50"
+    },
+    {
+      "id": 2700,
+      "question": "Which number is a factor of 12?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "11"
+      ],
+      "correctAnswer": "3",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2701,
+      "question": "What is a factor?",
+      "options": [
+        "A number that divides exactly",
+        "A number that adds",
+        "A number that subtracts",
+        "A number that multiplies"
+      ],
+      "correctAnswer": "A number that divides exactly",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2702,
+      "question": "Does 3 divide 12 exactly?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Cannot tell"
+      ],
+      "correctAnswer": "Yes",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2703,
+      "question": "Which is NOT a factor of 8?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "3"
+      ],
+      "correctAnswer": "3",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2704,
+      "question": "Which number is a factor of 10?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": "2",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2705,
+      "question": "Does 4 divide 16 exactly?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Cannot tell"
+      ],
+      "correctAnswer": "Yes",
+      "category": "math",
+      "difficulty": "easy",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2706,
+      "question": "How many factors does 12 have?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": "6",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2707,
+      "question": "What is a common factor of 12 and 18?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "8"
+      ],
+      "correctAnswer": "2",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2708,
+      "question": "What is the highest common factor of 8 and 12?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": "4",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2709,
+      "question": "Which pair of numbers multiply to give 24?",
+      "options": [
+        "3 × 8",
+        "5 × 5",
+        "2 × 11",
+        "7 × 4"
+      ],
+      "correctAnswer": "3 × 8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2710,
+      "question": "How many factors does 16 have?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "5",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2711,
+      "question": "What is a common factor of 16 and 24?",
+      "options": [
+        "3",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2712,
+      "question": "Which pair of numbers multiply to give 18?",
+      "options": [
+        "2 × 9",
+        "4 × 5",
+        "3 × 5",
+        "2 × 8"
+      ],
+      "correctAnswer": "2 × 9",
+      "category": "math",
+      "difficulty": "medium",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2713,
+      "question": "Express 12 as a product of prime factors",
+      "options": [
+        "2 × 2 × 3",
+        "2 × 6",
+        "3 × 4",
+        "1 × 12"
+      ],
+      "correctAnswer": "2 × 2 × 3",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2714,
+      "question": "Sarah has 36 stickers. She wants to arrange them in equal rows. How many different ways can she do this?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "correctAnswer": "9",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2715,
+      "question": "What is the least common multiple of 4 and 6?",
+      "options": [
+        "12",
+        "24",
+        "10",
+        "8"
+      ],
+      "correctAnswer": "12",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2716,
+      "question": "If a number has exactly 3 factors, what type of number is it?",
+      "options": [
+        "Prime number",
+        "Square of a prime",
+        "Composite number",
+        "Even number"
+      ],
+      "correctAnswer": "Square of a prime",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2717,
+      "question": "Express 18 as a product of prime factors",
+      "options": [
+        "2 × 3 × 3",
+        "3 × 6",
+        "2 × 9",
+        "1 × 18"
+      ],
+      "correctAnswer": "2 × 3 × 3",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2718,
+      "question": "Tom has 24 marbles. In how many ways can he arrange them in equal groups?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "8",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    },
+    {
+      "id": 2719,
+      "question": "What is the least common multiple of 8 and 12?",
+      "options": [
+        "20",
+        "24",
+        "32",
+        "48"
+      ],
+      "correctAnswer": "24",
+      "category": "math",
+      "difficulty": "hard",
+      "lessonId": 17,
+      "chapterTitle": "Factors, Prime Numbers and Prime Factors",
+      "unitTitle": "Factors",
+      "lessonTitle": "Factors"
+    }
+  ]
+}

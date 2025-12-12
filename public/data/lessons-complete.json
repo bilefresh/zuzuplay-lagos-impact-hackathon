@@ -1,0 +1,754 @@
+{
+  "metadata": {
+    "subject_id": 1,
+    "subject_name": "Mathematics",
+    "last_updated": "2025-01-19T12:00:00.000Z",
+    "total_chapters": 10,
+    "total_units": 18,
+    "total_lessons": 24
+  },
+  "chapters": [
+    {
+      "id": 11,
+      "name": "Open Sentences",
+      "description": null,
+      "subject_id": 1,
+      "units": []
+    },
+    {
+      "id": 3,
+      "name": "Notation and Place Value",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 2,
+          "name": "Idea of a thousand",
+          "description": null,
+          "chapter_id": 3,
+          "lessons": [
+            {
+              "id": 4,
+              "title": "Idea of a thousand",
+              "description": null,
+              "unit_id": 2,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 61,
+                  "title": "Idea of a thousand",
+                  "content": "1000, we leave a space between 1 and the 3 zeros Or a comma between 1 and the three zeros thus, 1 ,OOO. There is now a change in writing numbers. Whereas in the 20th, numbers would be separated by, and in group of three digits, now the comma is"
+                },
+                {
+                  "id": 60,
+                  "title": "Idea of a thousand",
+                  "content": "One large square has 100 small squares. Five large Squares have 500 small square. The number 500 comes from 5 x 100. Ten large squares have 1000 small squares. The number 1000 comes from 10 x 100. 1000 is read as one thousand. When writing the number"
+                },
+                {
+                  "id": 63,
+                  "title": "Idea of a thousand",
+                  "content": "100 + 200 + 300 + 400 = 1000.!"
+                },
+                {
+                  "id": 62,
+                  "title": "Idea of a thousand",
+                  "content": "dropped and instead a gap is put between the groups of three digits e.g., 200.000 before but now 200 000. This is because some European countries now use comma as decimal point viz 1 to read as 1.34. There are many ways of arriving at 1 000, e.g.,"
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "title": "Idea of a thousand",
+              "description": null,
+              "unit_id": 2,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 10,
+                  "title": "Idea of a thousand",
+                  "content": "One large square has 100 small squares. Five large Squares have 500 small square. The number 500 comes from 5 x 100. Ten large squares have 1000 small squares. The number 1000 comes from 10 x 100. 1000 is read as one thousand. When writing the number"
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "title": "Idea of a thousand",
+              "description": null,
+              "unit_id": 2,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 9,
+                  "title": "Idea of a thousand",
+                  "content": "One large square has 100 small squares. Five large Squares have 500 small square. The number 500 comes from 5 x 100. Ten large squares have 1000 small squares. The number 1000 comes from 10 x 100. 1000 is read as one thousand. When writing the number"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Idea of a ten thousand",
+          "description": null,
+          "chapter_id": 3,
+          "lessons": []
+        },
+        {
+          "id": 4,
+          "name": "Idea of a hundred thousand",
+          "description": null,
+          "chapter_id": 3,
+          "lessons": [
+            {
+              "id": 7,
+              "title": "Idea of a hundred thousand",
+              "description": null,
+              "unit_id": 4,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 7,
+                  "title": "Idea of a hundred thousand",
+                  "content": "Let each of the big squares\nOne page has 10 small squares.\nTen pages have IOX 10 000 or\n100000 is read as one hundred thousand.\nIt is a large number."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Place Value",
+          "description": null,
+          "chapter_id": 3,
+          "lessons": [
+            {
+              "id": 5,
+              "title": "Place Value",
+              "description": null,
+              "unit_id": 5,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 18,
+                  "title": "Place Value",
+                  "content": "Placing the value."
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "title": "Place Value",
+              "description": null,
+              "unit_id": 5,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 8,
+                  "title": "Place Value",
+                  "content": "Placing the value"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Place value of decimal numbers",
+          "description": null,
+          "chapter_id": 3,
+          "lessons": [
+            {
+              "id": 6,
+              "title": "Place Value of decimal numbers",
+              "description": null,
+              "unit_id": 6,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 17,
+                  "title": "Place Value of decimal numbers",
+                  "content": "Place Value of decimal numbers"
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "title": "Place Value of decimal numbers",
+              "description": null,
+              "unit_id": 6,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 12,
+                  "title": "Place Value of decimal numbers",
+                  "content": "Place Value of decimal numbers"
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "title": "Place Value of decimal numbers",
+              "description": null,
+              "unit_id": 6,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 13,
+                  "title": "Place Value of decimal numbers",
+                  "content": "Place Value of decimal numbers"
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "title": "Place Value of decimal numbers",
+              "description": null,
+              "unit_id": 6,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 14,
+                  "title": "Place Value of decimal numbers",
+                  "content": "Place Value of decimal numbers"
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "title": "Place Value of decimal numbers",
+              "description": null,
+              "unit_id": 6,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 15,
+                  "title": "Place Value of decimal numbers",
+                  "content": "Place Value of decimal numbers"
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "title": "Place Value of decimal numbers",
+              "description": null,
+              "unit_id": 6,
+              "chapter_id": 3,
+              "lesson_contents": [
+                {
+                  "id": 16,
+                  "title": "Place Value of decimal numbers",
+                  "content": "Place Value of decimal numbers"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Idea of a ten thousand",
+          "description": null,
+          "chapter_id": 3,
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Squares and Square roots",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 7,
+          "name": "Squares of numbers up to 50",
+          "description": null,
+          "chapter_id": 9,
+          "lessons": [
+            {
+              "id": 28,
+              "title": "Squares of numbers up to 50",
+              "description": null,
+              "unit_id": 7,
+              "chapter_id": 9,
+              "lesson_contents": [
+                {
+                  "id": 52,
+                  "title": "Squares of numbers up to 50",
+                  "content": "can already see that square numbers get bigger quickly!\n\nHow to Find the Square of Any Number\nTo find the square of any number, you just multiply the number by itself. Let's try some examples together:\n\nWhat is 6²?\nMultiply 6 × 6 = 36. So, 6² = 36.\n\nWhat is 12²?\nMultiply 12 × 12 = 144. So, 12² = 144.\n\nWhat is 20²?\nMultiply 20 × 20 = 400. So, 20² = 400."
+                },
+                {
+                  "id": 50,
+                  "title": "Squares of numbers up to 50",
+                  "content": "Have you ever heard of square numbers? Don't worry—it's not about shapes! When we talk about square numbers, we're talking about multiplying a number by itself. Let's explore how it works and have some fun with square numbers up to 50!\n\nWhat Is a Square Number?\nA square number is a number that you get when you multiply a number by itself. For example:\n\n2 squared (written as 2²) means 2 × 2 = 4.\n3 squared (written as 3²) means 3 × 3 = 9.\nBasically, when you see a little ² next to a number, it"
+                },
+                {
+                  "id": 51,
+                  "title": "Squares of numbers up to 50",
+                  "content": "means to multiply that number by itself.\n\nExamples of Square Numbers\nHere are some square numbers to help you understand better:\n\n1² = 1 × 1 = 1\n2² = 2 × 2 = 4\n3² = 3 × 3 = 9\n4² = 4 × 4 = 16\n5² = 5 × 5 = 25\nAnd it keeps going! Each time, you just multiply the number by itself.\n\nSquare Numbers from 1 to 10\nLet's look at the square numbers for numbers 1 to 10:\n\n1² = 1\n2² = 4\n3² = 9\n4² = 16\n5² = 25\n6² = 36\n7² = 49\n8² = 64\n9² = 81\n10² = 100\nThese are the square numbers for the first 10 numbers! You"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Squares of numbers up to 50",
+          "description": null,
+          "chapter_id": 9,
+          "lessons": []
+        },
+        {
+          "id": 22,
+          "name": "Squares of numbers up to 50",
+          "description": null,
+          "chapter_id": 9,
+          "lessons": []
+        },
+        {
+          "id": 23,
+          "name": "Square roots of numbers up to 400",
+          "description": null,
+          "chapter_id": 9,
+          "lessons": [
+            {
+              "id": 29,
+              "title": "Square roots of numbers up to 400",
+              "description": null,
+              "unit_id": 23,
+              "chapter_id": 9,
+              "lesson_contents": [
+                {
+                  "id": 54,
+                  "title": "Square roots of numbers up to 400",
+                  "content": "49.\nStep 3: Yes! So, √49 = 7.\n\nThose are the square roots of numbers up to 100. Let's go a little higher:\n\n√121 = 11\n√144 = 12\n√169 = 13\n√196 = 14\n√225 = 15\n√256 = 16\n√289 = 17\n√324 = 18\n√361 = 19\n√400 = 20"
+                },
+                {
+                  "id": 53,
+                  "title": "Square roots of numbers up to 400",
+                  "content": "How to Find a Square Root:\nYou might wonder how we find a square root if we don't remember the answer right away. Here's an easy way to think about it:\n\nThink of a number that might be the answer.\nMultiply it by itself (square it).\nCheck if it matches the number you're trying to find the square root of.\nFor example, let's find √36:\n\nTry 6. Is 6 × 6 = 36? Yes!\nSo, √36 = 6.\nPractice Example:\nLet's try to find √49.\n\nStep 1: What number might it be? Let's try 7.\nStep 2: Multiply 7 by itself: 7 × 7 ="
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Factors, Prime Numbers and Prime Factors",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 10,
+          "name": "Factors",
+          "description": null,
+          "chapter_id": 4,
+          "lessons": [
+            {
+              "id": 17,
+              "title": "Factors",
+              "description": null,
+              "unit_id": 10,
+              "chapter_id": 4,
+              "lesson_contents": [
+                {
+                  "id": 20,
+                  "title": "Factors",
+                  "content": "are 1, 2, 3, 4, 6, 8, 12 and 24\nThe common factors of 8, 16 and 24 are 1, 2, 4 and 8.\nTheir highest common factor is 8."
+                },
+                {
+                  "id": 19,
+                  "title": "Factors",
+                  "content": "A factor of a given number divides the number exactly without leaving a remainder.\nFor example, Find the factors of 64. \n64/1 = 64, 64/2 = 32, 64/4 = 16, 64/8 = 8\n- The factors of 64 are 1, 2, 4, 8, 16, 32 and 64\n\nAny number which is a factor of two or more given numbers is called the COMMON FACTOR of the given numbers.\n\nFind all the common factors of 8, 16, and 24. What is the highest common factor?\nThe factors of 8 are 1, 2, 4, and 8\nThe factors of 16 are 1, 2, 4, 8 and 16\nThe factors of 24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Prime Numbers I",
+          "description": null,
+          "chapter_id": 4,
+          "lessons": [
+            {
+              "id": 11,
+              "title": "Prime Numbers",
+              "description": null,
+              "unit_id": 11,
+              "chapter_id": 4,
+              "lesson_contents": [
+                {
+                  "id": 23,
+                  "title": "Prime Numbers",
+                  "content": "A prime number can only be divided by itself and 1. Therefore, it has only two factors - itself and 1.\nFor example, the factors 7 are 1 and 7. Which means 7 is a prime number as it cannot be divided by any number other than itself and 1.\n\n\nWhy is 1 not a prime number?\n1 is not a prime number because it has only one factor, namely 1. Prime numbers need to have exactly two factors.\n\n\n\nWhy is 2 a prime number?\n2 is a prime number because its only factors are 1 and itself.\n\n\nIs 51 a prime number?\n51"
+                },
+                {
+                  "id": 24,
+                  "title": "Prime Numbers",
+                  "content": "is not a prime number because it has 3 and 17 as divisors, as well as itself and 1. In other words, 51 has four factors."
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "title": "Prime Numbers",
+              "description": null,
+              "unit_id": 11,
+              "chapter_id": 4,
+              "lesson_contents": [
+                {
+                  "id": 22,
+                  "title": "Prime Numbers",
+                  "content": "not a prime number because it has 3 and 17 as divisors, as well as itself and 1. In other words, 51 has four factors."
+                },
+                {
+                  "id": 21,
+                  "title": "Prime Numbers",
+                  "content": "A prime number can only be divided by itself and 1. Therefore, it has only two factors - itself and 1.\nFor example, the factors 7 are 1 and 7. Which means 7 is a prime number as it cannot be divided by any number other than itself and 1.\n\nWhy is 1 not a prime number?\n1 is not a prime number because it has only one factor, namely 1. Prime numbers need to have exactly two factors.\n\nWhy is 2 a prime number?\n2 is a prime number because its only factors are 1 and itself.\n\nIs 51 a prime number?\n51 is"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Prime Factors",
+          "description": null,
+          "chapter_id": 4,
+          "lessons": [
+            {
+              "id": 19,
+              "title": "Prime Factors",
+              "description": null,
+              "unit_id": 12,
+              "chapter_id": 4,
+              "lesson_contents": [
+                {
+                  "id": 25,
+                  "title": "Prime Factors",
+                  "content": "All numbers which are not prime nubers can be expressed as product of prime numbers.\nFor example, \n6 = 2 * 3\n2 and 3 are prime factors of 6\n\n21 = 3 * 7\n3 and 7 are prime factors of 21\n\n12 = 2 * 2 * 3\n2 and 3 are prime factors of 12\n\nFactors which are prime numbers are called prime factors.\n\nExample, express 40 as a product of prime factors\n40 = 2 * 2 * 2 * 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fractions",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 13,
+          "name": "Expressing decimals as fractions",
+          "description": null,
+          "chapter_id": 5,
+          "lessons": [
+            {
+              "id": 20,
+              "title": "Expressing decimals as fractions",
+              "description": null,
+              "unit_id": 13,
+              "chapter_id": 5,
+              "lesson_contents": [
+                {
+                  "id": 27,
+                  "title": "Expressing decimals as fractions",
+                  "content": "steps!\n\nExample,\n\n0.25 as a Fraction\nWrite it as 0.25 / 1.\nThere are 2 numbers after the decimal, so multiply by 100:\n0.25 / 1 becomes 25 / 100.\nSimplify: 25 / 100 becomes 1 / 4.\nSo, 0.25 = 1/4!\n\n0.75 as a Fraction\nWrite it as 0.75 / 1.\nMultiply by 100: 0.75 / 1 becomes 75 / 100.\nSimplify: 75 / 100 becomes 3 / 4 (because 75 and 100 can both be divided by 25).\nSo, 0.75 = 3/4!"
+                },
+                {
+                  "id": 26,
+                  "title": "Expressing decimals as fractions",
+                  "content": "Decimals are numbers that have a dot called a decimal point. They help us show parts of a whole, just like fractions do! For example, 0.5 is a decimal, and it means half of something.\n\nHow Do Decimals and Fractions Work Together?\nDecimals and fractions are just two different ways to show the same thing!\n\nFor example,\nA decimal like 0.5 is the same as the fraction 1/2.\nA decimal like 0.25 is the same as the fraction 1/4.\nWe can change decimals into fractions by following some simple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Percentages",
+          "description": null,
+          "chapter_id": 5,
+          "lessons": [
+            {
+              "id": 21,
+              "title": "Percentages",
+              "description": null,
+              "unit_id": 14,
+              "chapter_id": 5,
+              "lesson_contents": [
+                {
+                  "id": 28,
+                  "title": "Percentages",
+                  "content": "A percentage is a way of saying \"how many parts out of 100.\" The word \"percent\" means \"per hundred,\" so a percentage shows a part of a whole where the whole is 100 parts.\n\nFor example, if you get 90% on a test, it means you got 90 out of 100 points! If you eat 50% of a pizza, you ate half of the pizza.\n\nHow to Write Percentages\n\nA percentage is written using the percent symbol (%).\nExamples:\n\n50% means 50 out of 100, or half.\n25% means 25 out of 100, or one-fourth.\n100% means the whole"
+                },
+                {
+                  "id": 29,
+                  "title": "Percentages",
+                  "content": "thing!\n\nHow to Find Percentages of a Number\nStep 1: Finding a Percentage of a Number\nTo find a percentage of a number, just multiply the number by the percentage and divide by 100.\n\nExample:\nWhat is 50% of 20?\nMultiply 20 by 50, then divide by 100:\n(20 × 50) ÷ 100 = 10.\nSo, 50% of 20 is 10!\n\nAnother Example:\nWhat is 25% of 80?\nMultiply 80 by 25, then divide by 100:\n(80 × 25) ÷ 100 = 20.\nSo, 25% of 80 is 20!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Addition and Subtraction",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 15,
+          "name": "Addition and Substraction",
+          "description": null,
+          "chapter_id": 6,
+          "lessons": [
+            {
+              "id": 22,
+              "title": "Addition and Substraction",
+              "description": null,
+              "unit_id": 15,
+              "chapter_id": 6,
+              "lesson_contents": [
+                {
+                  "id": 30,
+                  "title": "Addition and Substraction",
+                  "content": "What is Addition?\nAddition is when we combine two numbers to find out how much they make together. We use the plus sign (+) for addition.\n\nSteps to Add Large Numbers\nLet's say you want to add 436 and 281. We'll break it down step-by-step!\n- Line up the numbers so that the ones, tens, and hundreds digits are in columns.\nStart by adding the ones place (the digits on the far right):\n6 + 1 = 7. Write 7 under the ones column.\n\nNext, add the tens place (the digits in the middle):\n3 + 8 = 11. Write the"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Word problems",
+          "description": null,
+          "chapter_id": 6,
+          "lessons": [
+            {
+              "id": 23,
+              "title": "Word problems",
+              "description": null,
+              "unit_id": 16,
+              "chapter_id": 6,
+              "lesson_contents": [
+                {
+                  "id": 36,
+                  "title": "Word problems",
+                  "content": "How to Solve Word Problems\nThere are 3 important steps to solve word problems:\n\nRead the Problem Carefully: Understand what the problem is about. What are they asking you to find?\nPick the Right Operation: Should you add or subtract? Look for clues in the problem (like \"total\" for addition or \"left\" for subtraction).\nSolve the Problem: Do the math by adding or subtracting the numbers!\n\nExample 1:\nProblem:\nSarah has 523 marbles, and her friend gives her 298 more. How many marbles does Sarah have"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Addition and subtraction of fractions",
+          "description": null,
+          "chapter_id": 6,
+          "lessons": [
+            {
+              "id": 24,
+              "title": "Addiction and subtraction of fractions",
+              "description": null,
+              "unit_id": 17,
+              "chapter_id": 6,
+              "lesson_contents": [
+                {
+                  "id": 38,
+                  "title": "Addiction and subtraction of fractions",
+                  "content": "What Are Fractions?\nFractions are a way of showing parts of a whole. Imagine you have a pizza, and you cut it into equal slices. Each slice is a part of the whole pizza. A fraction has two parts:\n\nNumerator (the top number) tells you how many parts you have.\nDenominator (the bottom number) tells you how many parts the whole is divided into.\nFor example, if you eat 2 slices out of 4, the fraction is written as 2/4.\nAdding Fractions\nTo add fractions, there are two main steps:\n\n1. Add Fractions"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Addition and subtraction of decimals",
+          "description": null,
+          "chapter_id": 6,
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Multiplication and Division",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 19,
+          "name": "Multiplication by three digit numbers",
+          "description": null,
+          "chapter_id": 7,
+          "lessons": [
+            {
+              "id": 25,
+              "title": "Multiplication by big numbers",
+              "description": null,
+              "unit_id": 19,
+              "chapter_id": 7,
+              "lesson_contents": [
+                {
+                  "id": 41,
+                  "title": "Multiplication by big numbers",
+                  "content": "What is Multiplication?\nMultiplication is a quick way to add the same number over and over again. Instead of adding the same number multiple times, you can multiply!\n\nExample:\nIf you have 3 baskets with 4 apples in each basket, you can add the apples like this:\n4 + 4 + 4 = 12\nOR you can multiply:\n3 × 4 = 12\n\nThe two numbers you multiply are called factors.\nThe answer you get is called the product.\n\nSteps to Multiply Big Numbers:\nLet's multiply 342 × 5 as an example.\n\nStart with the ones place:"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Multiplication of fraction",
+          "description": null,
+          "chapter_id": 7,
+          "lessons": [
+            {
+              "id": 26,
+              "title": "Multiplication of fractions ",
+              "description": null,
+              "unit_id": 20,
+              "chapter_id": 7,
+              "lesson_contents": [
+                {
+                  "id": 45,
+                  "title": "Multiplication of fractions ",
+                  "content": "Multiplying fractions is easy! You just multiply the numerators together and the denominators together.\n\nSteps:\nMultiply the numerators (the top numbers).\nMultiply the denominators (the bottom numbers).\nSimplify the fraction if needed.\nExample 1:\nLet's multiply 1/2 and 3/4.\n\nStep 1: Multiply the numerators:\n1 × 3 = 3\n\nStep 2: Multiply the denominators:\n2 × 4 = 8\n\nSo, 1/2 × 3/4 = 3/8.\n\nExample 2:\nNow let's try 2/3 × 5/6.\n\nStep 1: Multiply the numerators:\n2 × 5 = 10\n\nStep 2: Multiply the"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Divisions of fractions",
+          "description": null,
+          "chapter_id": 7,
+          "lessons": [
+            {
+              "id": 27,
+              "title": "Division of fractions",
+              "description": null,
+              "unit_id": 21,
+              "chapter_id": 7,
+              "lesson_contents": [
+                {
+                  "id": 47,
+                  "title": "Division of fractions",
+                  "content": "Steps to Divide Fractions\nWhen you divide fractions, you actually multiply by the reciprocal of the second fraction. The reciprocal just means flipping the fraction upside down (the numerator becomes the denominator, and the denominator becomes the numerator).\n\nHere's how to divide fractions:\n\nKeep the first fraction the same.\nFlip the second fraction (find its reciprocal).\nMultiply the two fractions.\nSimplify if possible.\nExample 1:\nLet's divide 1/2 ÷ 3/4.\n\nStep 1: Keep the first fraction the"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Estimation",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 24,
+          "name": "Rounding up to nearest 2 decimal places",
+          "description": null,
+          "chapter_id": 10,
+          "lessons": [
+            {
+              "id": 30,
+              "title": "Rounding up to the nearest 2 decimal",
+              "description": null,
+              "unit_id": 24,
+              "chapter_id": 10,
+              "lesson_contents": [
+                {
+                  "id": 55,
+                  "title": "Rounding up to the nearest 2 decimal",
+                  "content": "Rounding to 2 Decimal Places\nWhen you round a number to 2 decimal places, you keep the first two digits after the decimal point and get rid of the rest. But there's one important rule: You need to check the third digit to decide whether to round up or down.\n\nSteps to Round to 2 Decimal Places:\nLook at the third digit (the number three places after the decimal).\nIf the third digit is 5 or higher, round the second digit up by 1.\nIf the third digit is less than 5, leave the second digit as it"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Rounding up to 3 decimal places",
+          "description": null,
+          "chapter_id": 10,
+          "lessons": [
+            {
+              "id": 32,
+              "title": "Rounding off decimals to 3 decimal places",
+              "description": null,
+              "unit_id": 26,
+              "chapter_id": 10,
+              "lesson_contents": [
+                {
+                  "id": 65,
+                  "title": "Rounding off decimals to 3 decimal places",
+                  "content": "What Does Rounding Mean?\nSometimes, numbers can have a lot of decimal places, like 3.1415926535. That's a lot to work with! Rounding helps us make numbers shorter and easier to use, without changing them too much."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "New Chapter from Admin",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 25,
+          "name": "test",
+          "description": null,
+          "chapter_id": 8,
+          "lessons": [
+            {
+              "id": 31,
+              "title": "Testing",
+              "description": null,
+              "unit_id": 25,
+              "chapter_id": 8,
+              "lesson_contents": [
+                {
+                  "id": 64,
+                  "title": "Testing",
+                  "content": "This is testing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Measurements",
+      "description": null,
+      "subject_id": 1,
+      "units": [
+        {
+          "id": 27,
+          "name": "Perimeter",
+          "description": null,
+          "chapter_id": 12,
+          "lessons": []
+        }
+      ]
+    }
+  ]
+}
