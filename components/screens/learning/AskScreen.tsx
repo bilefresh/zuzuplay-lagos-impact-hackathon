@@ -3,8 +3,8 @@
 import AskButton from "@/components/AskButton";
 import AskInput from "@/components/AskInput";
 import BackButton from "@/components/common/BackButton";
-import bearIcon from "../../../assets/icons/ask.svg";
-import thinkingIcon from "../../../assets/icons/thinking.svg";
+import bearIcon from "../../../assets/icons/zuzuplay.svg";
+import thinkingIcon from "../../../assets/icons/zuzuplay.svg";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { apiCaller, apiService } from "@/middleware/apiService";
