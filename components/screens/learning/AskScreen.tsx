@@ -182,8 +182,8 @@ const AskScreen: React.FC = () => {
               <div
                 className={`max-w-xs py-5 px-7 rounded-tl-[40px] rounded-br-[40px] rounded-tr-[12px] rounded-bl-[12px] ${
                   message.sender === "user"
-                    ? "bg-[#06113C] text-white"
-                    : "bg-gray-200 text-black"
+                    ? "bg-[#ffe34d] text-black"
+                    : "bg-[#4fc3f7] text-white"
                 }`}
               >
                 {message.sender === "user" ? (
