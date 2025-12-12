@@ -23,7 +23,7 @@ const CoinPage = () => {
         {/* <div className="">
           <p className="text-white ">
             You have{' '}
-            <span className="flex items-center text-[#FD6C22] font-bold text-base">
+            <span className="flex items-center text-[#4FC3F7] font-bold text-base">
               <span>300</span>
               <Image src={coin} width={50} height={50} alt={''} />
             </span>
@@ -31,7 +31,7 @@ const CoinPage = () => {
         </div> */}
         <div className="ml-4 flex items-center">
           <span className="text-white font-semibold">You have</span>
-          <span className="text-orange-500 font-bold mx-1">{coins}</span>
+          <span className="text-[#4fc3f7] font-bold mx-1">{coins}</span>
           <Image src={coin} width={50} height={50} alt={''} />
         </div>
       </div>

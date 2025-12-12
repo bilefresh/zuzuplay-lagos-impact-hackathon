@@ -52,7 +52,7 @@ const oldsubject = [
     id: 5,
     name: "Ask Zuzuplay",
     image: zuzuplayMascot,
-    color: "bg-[#A95124]",
+    color: "bg-[#4fc3f7]",
     href: "/ask",
     class: "w-[65px] h-[56px] object-cover",
   },
@@ -185,10 +185,10 @@ const DashboardScreen = () => {
 
       {/* Active Class Time Display */}
       {activeClassTime && (
-        <div className="mb-6 mt-10 bg-[#fff6f2] border border-[#fd6c22] rounded-xl p-4">
+        <div className="mb-6 mt-10 bg-[#fff6f2] border border-[#4fc3f7] rounded-xl p-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#fd6c22] rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-[#4fc3f7] rounded-full flex items-center justify-center">
                 <Clock className="w-5 h-5 text-white" />
               </div>
               <div>
@@ -205,7 +205,7 @@ const DashboardScreen = () => {
                 // Navigate to the active class
                 window.location.href = `/learning/${activeClassTime.subject}`;
               }}
-              className="bg-[#fd6c22] hover:bg-[#d4662d] text-white px-4 py-2 rounded-lg font-semibold transition-colors"
+              className="bg-[#4fc3f7] hover:bg-[#d4662d] text-white px-4 py-2 rounded-lg font-semibold transition-colors"
             >
               Join Class
             </button>

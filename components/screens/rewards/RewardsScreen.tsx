@@ -205,7 +205,7 @@ const RewardsScreen = () => {
               
               {/* Cost indicator for unowned characters */}
               {!character.owned && character.cost && (
-                <div className="absolute -bottom-1 -right-1 bg-orange-500 text-white text-xs px-1 py-0.5 rounded-full font-bold">
+                <div className="absolute -bottom-1 -right-1 bg-[#4fc3f7] text-white text-xs px-1 py-0.5 rounded-full font-bold">
                   {character.cost}
                 </div>
               )}

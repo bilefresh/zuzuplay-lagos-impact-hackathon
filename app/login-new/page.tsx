@@ -107,8 +107,8 @@ export default function NewLoginPage() {
                   w-full h-[88px] bg-white border border-[#d5d7d5] rounded-lg p-6
                   transition-all duration-200 hover:shadow-md
                   ${option.selected 
-                    ? 'border-[#fd6c22] bg-[#FFFBF6] shadow-md' 
-                    : 'hover:border-[#fd6c22]/50'
+                    ? 'border-[#4fc3f7] bg-[#FFFBF6] shadow-md' 
+                    : 'hover:border-[#4fc3f7]/50'
                   }
                 `}
               >
@@ -145,13 +145,13 @@ export default function NewLoginPage() {
               w-full h-14 rounded-lg border-2 font-bold text-base font-['Comic_Sans_MS']
               transition-all duration-200
               ${isSelected
-                ? 'bg-[#fd6c22] border-[#06113c] text-[#3651ab] hover:bg-[#fea679]'
+                ? 'bg-[#4fc3f7] border-[#06113c] text-[#3651ab] hover:bg-[#4fc3f7]'
                 : 'bg-gray-200 border-gray-300 text-gray-400 cursor-not-allowed'
               }
             `}
           >
             <div className="relative h-full flex items-center justify-center">
-              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-[300px] h-1.5 bg-[#fea679] rounded-full" />
+              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-[300px] h-1.5 bg-[#4fc3f7] rounded-full" />
               <span className="relative z-10">Log In</span>
             </div>
           </button>
@@ -161,7 +161,7 @@ export default function NewLoginPage() {
         <div className="max-w-md mx-auto lg:max-w-none lg:mx-0 lg:w-[450px] mt-6">
           <p className="text-[#58514d] text-base text-center font-['Work_Sans'] tracking-[-0.32px]">
             <span>Don&apos;t have an account?</span>
-            <Link href="/onboarding/step1" className="font-bold text-[#fd6c22] ml-1">
+            <Link href="/onboarding/step1" className="font-bold text-[#4fc3f7] ml-1">
               Sign Up
             </Link>
           </p>

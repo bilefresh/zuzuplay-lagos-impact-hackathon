@@ -25,7 +25,7 @@ const LearningButton = React.forwardRef<HTMLButtonElement, LearningButtonProps>(
       accent: 'bg-[#A95124] text-white hover:bg-[#96421f] active:bg-[#83391a]',
       ghost: 'bg-transparent text-[#58514D] hover:bg-gray-100 active:bg-gray-200',
       success: 'bg-green-600 text-white hover:bg-green-700 active:bg-green-800',
-      warning: 'bg-orange-500 text-white hover:bg-orange-600 active:bg-orange-700',
+      warning: 'bg-[#4fc3f7] text-white hover:bg-orange-600 active:bg-orange-700',
       danger: 'bg-red-500 text-white hover:bg-red-600 active:bg-red-700'
     };
 

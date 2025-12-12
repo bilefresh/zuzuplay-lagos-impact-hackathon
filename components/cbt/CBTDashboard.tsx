@@ -167,7 +167,7 @@ const CBTDashboard = () => {
         <h2 className="text-lg font-semibold text-[#291b13]">Recent Assessments</h2>
         <Button 
           onClick={handleCreateAssessment}
-          className="bg-[#fd6c22] hover:bg-[#e55b18] text-white"
+          className="bg-[#4fc3f7] hover:bg-[#e55b18] text-white"
         >
           + Create Assessment
         </Button>

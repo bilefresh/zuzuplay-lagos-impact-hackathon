@@ -186,7 +186,7 @@ const QuestionEditor = ({ onSave, onCancel, initialQuestion }: QuestionEditorPro
 
       <div className="flex justify-end gap-3 pt-4 border-t">
         <Button variant="outline" onClick={onCancel}>Cancel</Button>
-        <Button onClick={handleSave} className="bg-[#fd6c22] hover:bg-[#e55b18]">
+        <Button onClick={handleSave} className="bg-[#4fc3f7] hover:bg-[#e55b18]">
             <Save className="w-4 h-4 mr-2" />
             {initialQuestion ? "Update Question" : "Add Question"}
         </Button>

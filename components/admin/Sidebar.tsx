@@ -89,7 +89,7 @@ export function Sidebar({ isCollapsed, onToggle }: SidebarProps) {
           width={32} height={32} 
         />
         {!isCollapsed && (
-          <span className="text-[#fd6c22] text-2xl font-bold" style={{ fontFamily: 'Comic Sans MS, cursive' }}>
+          <span className="text-[#4fc3f7] text-2xl font-bold" style={{ fontFamily: 'Comic Sans MS, cursive' }}>
             Zuzuplay
           </span>
         )}
@@ -120,14 +120,14 @@ export function Sidebar({ isCollapsed, onToggle }: SidebarProps) {
               href={item.href}
               className={`flex items-center gap-2 px-6 py-3 text-base font-normal transition-colors relative ${
                 isActive
-                  ? "bg-[#fff6f2] text-[#fd6c22]"
+                  ? "bg-[#fff6f2] text-[#4fc3f7]"
                   : "text-[#58514d] hover:bg-gray-50"
               }`}
               title={isCollapsed ? item.label : undefined}
             >
               {/* Active border */}
               {isActive && (
-                <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-[#fd6c22]" />
+                <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-[#4fc3f7]" />
               )}
               
               <div className="w-5 h-5 flex items-center justify-center">

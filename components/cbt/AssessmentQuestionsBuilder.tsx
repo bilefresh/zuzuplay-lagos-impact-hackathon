@@ -76,7 +76,7 @@ const AssessmentQuestionsBuilder = ({
             <p className="text-sm text-gray-500">Total Points: {questions.reduce((acc, q) => acc + q.points, 0)}</p>
          </div>
          {!isEditing && (
-             <Button onClick={() => setIsEditing(true)} className="bg-[#fd6c22] hover:bg-[#e55b18]">
+             <Button onClick={() => setIsEditing(true)} className="bg-[#4fc3f7] hover:bg-[#e55b18]">
                <Plus className="h-4 w-4 mr-2" /> Add Question
              </Button>
          )}
@@ -145,7 +145,7 @@ const AssessmentQuestionsBuilder = ({
             <Button 
                 onClick={() => onSave(questions)} 
                 disabled={questions.length === 0 || isSubmitting}
-                className="bg-[#fd6c22] hover:bg-[#e55b18]"
+                className="bg-[#4fc3f7] hover:bg-[#e55b18]"
             >
                 {isSubmitting ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Publishing...</> : "Publish Assessment"}
             </Button>

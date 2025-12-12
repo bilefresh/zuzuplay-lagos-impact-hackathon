@@ -47,7 +47,7 @@ const LessonPath: React.FC<LessonPathProps> = ({
   const getLessonStyles = (status: string) => {
     switch (status) {
       case 'completed':
-        return 'bg-orange-500 border-orange-300 hover:bg-orange-600 hover:scale-110';
+        return 'bg-[#4fc3f7] border-orange-300 hover:bg-orange-600 hover:scale-110';
       case 'in_progress':
         return 'bg-blue-600 border-blue-300 hover:bg-blue-700 hover:scale-110';
       default:

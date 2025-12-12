@@ -13,7 +13,7 @@ interface ActiveLearnersProps {
 
 const LoadingState = () => (
   <div className="flex flex-col items-center justify-center py-12">
-    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#fd6c22] mb-4"></div>
+    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#4fc3f7] mb-4"></div>
     <p className="text-[#9c9c9c] text-sm">Loading chart data...</p>
   </div>
 );
@@ -67,7 +67,7 @@ const ChartWithData = ({ onRefresh }: { onRefresh?: () => void }) => {
             <polyline
               points={pointsAttr}
               fill="none"
-              stroke="#fd6c22"
+              stroke="#4fc3f7"
               strokeWidth="2"
               vectorEffect="non-scaling-stroke"
               strokeLinejoin="round"
@@ -79,7 +79,7 @@ const ChartWithData = ({ onRefresh }: { onRefresh?: () => void }) => {
           {data.map((point, index) => (
             <div
               key={point.day}
-              className="absolute w-3 h-3 bg-[#fd6c22] rounded-full cursor-pointer hover:scale-125 transition-transform"
+              className="absolute w-3 h-3 bg-[#4fc3f7] rounded-full cursor-pointer hover:scale-125 transition-transform"
               style={{
                 left: `${(index / (data.length - 1)) * 100}%`,
                 bottom: `${(point.value / 100) * 100}%`,
@@ -118,7 +118,7 @@ const ChartWithData = ({ onRefresh }: { onRefresh?: () => void }) => {
       {onRefresh && (
         <button
           onClick={onRefresh}
-          className="absolute top-4 right-4 p-2 text-[#9c9c9c] hover:text-[#fd6c22] transition-colors"
+          className="absolute top-4 right-4 p-2 text-[#9c9c9c] hover:text-[#4fc3f7] transition-colors"
           aria-label="Refresh chart data"
         >
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -150,7 +150,7 @@ export const ActiveLearners = ({ hasData = true, isLoading = false, onRefresh }:
           <h3 className="text-[#58514d] text-lg font-semibold">Active Learners</h3>
           <div className="flex items-center gap-2">
             <span className="text-[#9c9c9c] text-sm">Weekly activity</span>
-            <div className="w-2 h-2 bg-[#fd6c22] rounded-full"></div>
+            <div className="w-2 h-2 bg-[#4fc3f7] rounded-full"></div>
           </div>
         </div>
         

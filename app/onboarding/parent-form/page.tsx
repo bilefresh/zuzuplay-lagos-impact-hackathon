@@ -139,7 +139,7 @@ export default function ParentForm() {
                 value={formData.firstName}
                 onChange={(e) => handleInputChange('firstName', e.target.value)}
                 placeholder="Enter your first name"
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#4fc3f7]"
                 required
               />
             </div>
@@ -154,7 +154,7 @@ export default function ParentForm() {
                 value={formData.lastName}
                 onChange={(e) => handleInputChange('lastName', e.target.value)}
                 placeholder="Enter your last name"
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#4fc3f7]"
                 required
               />
             </div>
@@ -169,7 +169,7 @@ export default function ParentForm() {
                 value={formData.email}
                 onChange={(e) => handleInputChange('email', e.target.value)}
                 placeholder="Enter your email"
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#4fc3f7]"
                 required
               />
             </div>
@@ -184,7 +184,7 @@ export default function ParentForm() {
                 value={formData.phone}
                 onChange={(e) => handleInputChange('phone', e.target.value)}
                 placeholder="Enter your phone number"
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#4fc3f7]"
                 required
               />
             </div>
@@ -199,7 +199,7 @@ export default function ParentForm() {
                 value={formData.childName}
                 onChange={(e) => handleInputChange('childName', e.target.value)}
                 placeholder="Enter your child&apos;s name"
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#4fc3f7]"
                 required
               />
             </div>
@@ -212,7 +212,7 @@ export default function ParentForm() {
               <select
                 value={formData.childClass}
                 onChange={(e) => handleInputChange('childClass', e.target.value)}
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] focus:outline-none focus:border-[#4fc3f7]"
                 required
               >
                 <option value="">Select class</option>
@@ -235,7 +235,7 @@ export default function ParentForm() {
                 value={formData.password}
                 onChange={(e) => handleInputChange('password', e.target.value)}
                 placeholder="Enter your password"
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#4fc3f7]"
                 required
                 minLength={8}
               />
@@ -251,7 +251,7 @@ export default function ParentForm() {
                 value={formData.confirmPassword}
                 onChange={(e) => handleInputChange('confirmPassword', e.target.value)}
                 placeholder="Confirm your password"
-                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#fd6c22]"
+                className="w-full h-14 px-6 border border-[#d5d7d5] rounded-lg text-base font-['Work_Sans'] placeholder:text-[#9c9c9c] focus:outline-none focus:border-[#4fc3f7]"
                 required
                 minLength={8}
               />
@@ -266,13 +266,13 @@ export default function ParentForm() {
               w-full h-14 rounded-lg border-2 font-bold text-base font-['Comic_Sans_MS'] mt-8
               transition-all duration-200
               ${isFormValid && !isLoading
-                ? 'bg-[#fd6c22] border-[#06113c] text-[#3651ab] hover:bg-[#fea679]'
+                ? 'bg-[#4fc3f7] border-[#06113c] text-[#3651ab] hover:bg-[#4fc3f7]'
                 : 'bg-gray-200 border-gray-300 text-gray-400 cursor-not-allowed'
               }
             `}
           >
             <div className="relative h-full flex items-center justify-center">
-              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-[300px] h-1.5 bg-[#fea679] rounded-full" />
+              <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-[300px] h-1.5 bg-[#4fc3f7] rounded-full" />
               <span className="relative z-10">
                 {isLoading ? 'Creating Account...' : 'Create Account'}
               </span>
@@ -284,7 +284,7 @@ export default function ParentForm() {
         <div className="max-w-md mx-auto lg:max-w-none lg:mx-0 lg:w-[450px] mt-6">
           <p className="text-[#58514d] text-base text-center font-['Work_Sans'] tracking-[-0.32px]">
             <span>Already have an account?</span>
-            <Link href="/login" className="font-bold text-[#fd6c22] ml-1">
+            <Link href="/login" className="font-bold text-[#4fc3f7] ml-1">
               Log in
             </Link>
           </p>

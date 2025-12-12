@@ -324,7 +324,7 @@
   }
 
   .neutral-btn {
-    @apply bg-[#FD6C22] text-white hover:bg-[#FD6C22];
+    @apply bg-[#4FC3F7] text-white hover:bg-[#4FC3F7];
   }
 
   .lives-container {

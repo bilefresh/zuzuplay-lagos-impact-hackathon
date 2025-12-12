@@ -104,10 +104,10 @@ const SubjectScreenClient = ({ params }: { params: { subjectId: string } }) => {
                     className={`w-full h-2.5 bg-gray-300 relative rounded-full`}
                   >
                     <div
-                      className="h-full flex flex-col bg-orange-500 transition-all duration-300 rounded-full"
+                      className="h-full flex flex-col bg-[#4fc3f7] transition-all duration-300 rounded-full"
                       style={{ width: `${item.progress}%` }}
                     >
-                      <span className="h-0.5 rounded-xl bg-[#FEA679] m-0.5 mx-2"></span>
+                      <span className="h-0.5 rounded-xl bg-[#4fc3f7] m-0.5 mx-2"></span>
                     </div>
                   </div>
                 </div>

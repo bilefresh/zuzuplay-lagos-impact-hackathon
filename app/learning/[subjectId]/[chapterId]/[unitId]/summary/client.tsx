@@ -80,7 +80,7 @@ const SummaryScreenClient = ({
       </section>
       <Link
         href={`/learning/${subjectId}/${chapterId}/${unitId}`}
-        className="text-orange-500 underline"
+        className="text-[#4fc3f7] underline"
       >
         Go Back
       </Link>

@@ -51,7 +51,7 @@ export function Header({
         {/* User Profile */}
         <div className="flex items-center gap-2">
           <div className="relative w-10 h-10">
-            <div className="w-10 h-10 bg-[#fd6c22] rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-[#4fc3f7] rounded-full flex items-center justify-center">
               <span className="text-white text-sm font-bold">
                 {userInitials}
               </span>

@@ -130,7 +130,7 @@ const LoginScreen = () => {
           }}
           className={`flex-1 py-2 px-4 rounded-md transition-all ${
             loginMethod === "email"
-              ? "bg-orange-500 text-white"
+              ? "bg-[#4fc3f7] text-white"
               : "bg-transparent text-gray-600"
           }`}
         >
@@ -143,7 +143,7 @@ const LoginScreen = () => {
           }}
           className={`flex-1 py-2 px-4 rounded-md transition-all ${
             loginMethod === "phone"
-              ? "bg-orange-500 text-white"
+              ? "bg-[#4fc3f7] text-white"
               : "bg-transparent text-gray-600"
           }`}
         >
@@ -189,7 +189,7 @@ const LoginScreen = () => {
           <button
             onClick={handleEmailLogin}
             disabled={isLoading}
-            className="p-3 w-full max-w-xs bg-orange-500 text-white rounded hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed mt-4"
+            className="p-3 w-full max-w-xs bg-[#4fc3f7] text-white rounded hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed mt-4"
           >
             {isLoading ? "Logging in..." : "Login with Email"}
           </button>
@@ -214,7 +214,7 @@ const LoginScreen = () => {
               <button
                 onClick={handleRequestOTP}
                 disabled={isLoading}
-                className="p-3 w-full max-w-xs bg-orange-500 text-white rounded hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="p-3 w-full max-w-xs bg-[#4fc3f7] text-white rounded hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isLoading ? "Sending OTP..." : "Send OTP"}
               </button>
@@ -235,13 +235,13 @@ const LoginScreen = () => {
               <button
                 onClick={handleVerifyOTP}
                 disabled={isLoading}
-                className="p-3 w-full max-w-xs bg-orange-500 text-white rounded hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed mb-2"
+                className="p-3 w-full max-w-xs bg-[#4fc3f7] text-white rounded hover:bg-orange-600 disabled:opacity-50 disabled:cursor-not-allowed mb-2"
               >
                 {isLoading ? "Verifying..." : "Verify OTP"}
               </button>
               <button
                 onClick={() => setOtpSent(false)}
-                className="text-orange-500 underline text-sm"
+                className="text-[#4fc3f7] underline text-sm"
               >
                 Change phone number
               </button>

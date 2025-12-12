@@ -10,7 +10,7 @@ const Button = ({ handleNext, text, isDisabled }: ButtonProp) => {
       onClick={handleNext}
       disabled={isDisabled} // Disable the button when isDisabled is true
       className={`px-4 border-[#06113C] border-2 h-14 w-full max-w-xs ${
-        isDisabled ? 'bg-[#FD6C22]/30' : 'bg-[#FD6C22]/100'
+        isDisabled ? 'bg-[#4FC3F7]/30' : 'bg-[#4FC3F7]/100'
       } text-white rounded-lg flex items-center justify-center relative overflow-hidden ${
         isDisabled ? 'cursor-not-allowed' : ''
       }`}
@@ -18,7 +18,7 @@ const Button = ({ handleNext, text, isDisabled }: ButtonProp) => {
       {/* The span representing the progress */}
       <span
         className={`absolute h-1.5 top-1 w-[80%] mx-4 ${
-          isDisabled ? 'bg-[#FEA679]/50' : 'bg-[#FEA679]/100'
+          isDisabled ? 'bg-[#4fc3f7]/50' : 'bg-[#4fc3f7]/100'
         } rounded-xl`}
       ></span>
       {/* Button Text */}

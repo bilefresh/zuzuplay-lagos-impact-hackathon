@@ -203,7 +203,7 @@ const AssessmentPlayer = ({ assessment, attemptId, reviewMode = false, existingA
                     </div>
                     <Button 
                         size="lg" 
-                        className="w-full bg-[#fd6c22] hover:bg-[#e55b18]"
+                        className="w-full bg-[#4fc3f7] hover:bg-[#e55b18]"
                         onClick={() => {
                             toggleFullScreen();
                             setHasStarted(true);
@@ -227,7 +227,7 @@ const AssessmentPlayer = ({ assessment, attemptId, reviewMode = false, existingA
                 
                 <div className="flex items-center gap-6">
                     {!reviewMode && (
-                        <div className={`flex items-center gap-2 font-mono text-xl font-bold ${timeLeft < 300 ? 'text-red-500 animate-pulse' : 'text-[#fd6c22]'}`}>
+                        <div className={`flex items-center gap-2 font-mono text-xl font-bold ${timeLeft < 300 ? 'text-red-500 animate-pulse' : 'text-[#4fc3f7]'}`}>
                             <Clock className="w-5 h-5" />
                             {formatTime(timeLeft)}
                         </div>
@@ -281,7 +281,7 @@ const AssessmentPlayer = ({ assessment, attemptId, reviewMode = false, existingA
                                         }
                                     } else {
                                         itemClass += " hover:bg-gray-50";
-                                        if (isSelected) itemClass += " border-[#fd6c22] bg-orange-50";
+                                        if (isSelected) itemClass += " border-[#4fc3f7] bg-orange-50";
                                     }
 
                                     return (
@@ -323,7 +323,7 @@ const AssessmentPlayer = ({ assessment, attemptId, reviewMode = false, existingA
                                 </Button>
                             ) : (
                                 <Button 
-                                    className="bg-[#fd6c22] hover:bg-[#e55b18]"
+                                    className="bg-[#4fc3f7] hover:bg-[#e55b18]"
                                     onClick={() => setCurrentQuestionIndex(prev => Math.min(assessment.questions.length - 1, prev + 1))}
                                 >
                                     Next <ChevronRight className="w-4 h-4 ml-2" />
@@ -345,7 +345,7 @@ const AssessmentPlayer = ({ assessment, attemptId, reviewMode = false, existingA
                                 
                                 let btnClass = "h-8 w-8 rounded flex items-center justify-center text-sm font-medium transition-colors relative ";
                                 
-                                if (isCurrent) btnClass += "ring-2 ring-[#fd6c22] ring-offset-1 ";
+                                if (isCurrent) btnClass += "ring-2 ring-[#4fc3f7] ring-offset-1 ";
                                 
                                 if (reviewMode) {
                                     // In review, color by correctness
@@ -356,7 +356,7 @@ const AssessmentPlayer = ({ assessment, attemptId, reviewMode = false, existingA
                                     if (isCorrect) btnClass += "bg-green-100 text-green-800 border border-green-200";
                                     else btnClass += "bg-red-100 text-red-800 border border-red-200";
                                 } else {
-                                    if (isAnswered) btnClass += "bg-[#fd6c22] text-white";
+                                    if (isAnswered) btnClass += "bg-[#4fc3f7] text-white";
                                     else btnClass += "bg-gray-100 text-gray-600 hover:bg-gray-200";
                                     
                                     if (isFlagged && !isAnswered) btnClass += " bg-yellow-100 text-yellow-700";
@@ -380,7 +380,7 @@ const AssessmentPlayer = ({ assessment, attemptId, reviewMode = false, existingA
                         {!reviewMode ? (
                             <div className="mt-6 space-y-2 text-xs text-gray-500">
                                 <div className="flex items-center gap-2">
-                                    <div className="w-3 h-3 rounded bg-[#fd6c22]" /> Answered
+                                    <div className="w-3 h-3 rounded bg-[#4fc3f7]" /> Answered
                                 </div>
                                 <div className="flex items-center gap-2">
                                     <div className="w-3 h-3 rounded bg-gray-100 border" /> Not Answered

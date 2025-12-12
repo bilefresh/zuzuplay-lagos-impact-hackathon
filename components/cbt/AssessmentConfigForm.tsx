@@ -231,7 +231,7 @@ const AssessmentConfigForm = ({ onSubmit, initialData }: AssessmentConfigFormPro
         </div>
 
         <div className="flex justify-end">
-            <Button type="submit" className="bg-[#fd6c22] hover:bg-[#e55b18]">Next Step</Button>
+            <Button type="submit" className="bg-[#4fc3f7] hover:bg-[#e55b18]">Next Step</Button>
         </div>
       </form>
     </Form>

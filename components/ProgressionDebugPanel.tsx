@@ -158,7 +158,7 @@ export const ProgressionDebugPanel: React.FC<ProgressionDebugPanelProps> = ({
               refreshData();
               toast.success("Lesson progress reset!");
             }}
-            className="w-full bg-orange-500 text-white px-3 py-2 rounded text-sm font-medium hover:bg-orange-600"
+            className="w-full bg-[#4fc3f7] text-white px-3 py-2 rounded text-sm font-medium hover:bg-orange-600"
           >
             🔄 Reset Lesson
           </button>

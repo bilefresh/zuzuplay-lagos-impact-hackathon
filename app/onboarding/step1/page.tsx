@@ -118,8 +118,8 @@ export default function OnboardingStep1() {
                   bg-white border border-[#d5d7d5] rounded-lg p-6 py-4 gap-5 content-center lg:h-[140px] w-full lg:w-[225px]
                   transition-all duration-200 hover:shadow-md
                   ${option.selected 
-                    ? 'border-[#fd6c22] bg-[#FFFBF6] shadow-md' 
-                    : 'hover:border-[#fd6c22]/50'
+                    ? 'border-[#4fc3f7] bg-[#FFFBF6] shadow-md' 
+                    : 'hover:border-[#4fc3f7]/50'
                   }
                 `}
               >
@@ -131,7 +131,7 @@ export default function OnboardingStep1() {
                       width={32}
                       height={32}
                       className={`w-full h-full ${option.selected 
-                        ? 'color-[#fd6c22] fill-[#fd6c22]' 
+                        ? 'color-[#4fc3f7] fill-[#4fc3f7]' 
                         : ''
                       }`}
                     />
@@ -159,7 +159,7 @@ export default function OnboardingStep1() {
               w-full mt-4 h-14 rounded-lg border-2 font-bold text-base font-['Comic_Sans_MS']
               transition-all duration-200
               ${isSelected
-                ? 'bg-[#fd6c22] border-[#06113c] text-[#3651ab] hover:bg-[#fea679]'
+                ? 'bg-[#4fc3f7] border-[#06113c] text-[#3651ab] hover:bg-[#4fc3f7]'
                 : 'bg-gray-200 border-gray-300 text-gray-400 cursor-not-allowed'
               }
             `}
@@ -175,7 +175,7 @@ export default function OnboardingStep1() {
         <div className="max-w-md mx-auto lg:max-w-none lg:mx-0 lg:w-[450px] mt-6">
           <p className="text-[#58514d] text-base text-center font-['Work_Sans'] tracking-[-0.32px]">
             <span>Already have an account?</span>
-            <Link href="/login-new" className="font-bold text-[#fd6c22] ml-1">
+            <Link href="/login-new" className="font-bold text-[#4fc3f7] ml-1">
               Log in
             </Link>
           </p>

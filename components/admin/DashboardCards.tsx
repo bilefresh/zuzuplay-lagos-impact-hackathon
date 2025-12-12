@@ -62,7 +62,7 @@ const DashboardCard = ({ title, value, image, className = "", trend, onClick }: 
         </div>
       </div>
     </div>
-    <div aria-hidden="true" className="absolute border border-[#d5d7d5] border-solid inset-0 pointer-events-none rounded-[8px] group-hover:border-[#fd6c22] transition-colors" />
+    <div aria-hidden="true" className="absolute border border-[#d5d7d5] border-solid inset-0 pointer-events-none rounded-[8px] group-hover:border-[#4fc3f7] transition-colors" />
   </div>
 );
 

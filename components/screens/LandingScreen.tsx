@@ -26,14 +26,14 @@ const LandingScreen = () => {
   }
   return (
     <div className="flex flex-col items-center justify-center h-screen p-5 bg-white">
-      <Image src={logo} alt={''} />
-      <h1 className="text-2xl font-bold text-orange-500 mb-2">Zuzuplay</h1>
+      <Image src={logo} alt={''} width={200} />
+      <h1 className="text-2xl font-bold text-[#4fc3f7] mb-2">Zuzuplay</h1>
       <p className="text-lg text-gray-600 mb-8">
         Unlocking the Magic of Learning
       </p>
       {/* <button
         onClick={handleGetStarted}
-        className="mt-16 p-3 w-full max-w-xs bg-orange-500 text-white border-2 border-orange-600 rounded mb-4 hover:bg-orange-600"
+        className="mt-16 p-3 w-full max-w-xs bg-[#4fc3f7] text-white border-2 border-orange-600 rounded mb-4 hover:bg-orange-600"
       >
         Get Started
       </button> */}
@@ -57,7 +57,7 @@ const LandingScreen = () => {
       </button> */}
       {/* <button
         onClick={handleGetStarted}
-        className="p-3 w-full max-w-xs bg-orange-500 text-white border-2 border-black rounded hover:bg-orange-600"
+        className="p-3 w-full max-w-xs bg-[#4fc3f7] text-white border-2 border-black rounded hover:bg-orange-600"
       >
         Get Started
       </button> */}

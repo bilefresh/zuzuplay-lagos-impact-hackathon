@@ -9,7 +9,7 @@ import homeIcon from '../../assets/icons/home.svg'
 import homeIconActive from '../../assets/icons/home-active.svg'
 import rewardsIcon from '../../assets/icons/rewards.svg'
 import rewardsIconActive from '../../assets/icons/rewards-active.svg'
-import askIcon from '../../assets/icons/ask.svg'
+import askIcon from '../../assets/icons/zuzuplay.svg'
 import analyticsIcon from '../../assets/icons/analytics.svg'
 import analyticsIconActive from '../../assets/icons/analytics-active.svg'
 import profileIcon from '../../assets/icons/profile.svg'
@@ -30,8 +30,8 @@ const Footer = () => {
         <span
           className={`mt-1 text-sm ${
             pathname === '/learning/dashboard'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+              ? 'text-[#4fc3f7]'
+              : 'text-gray-700 hover:text-[#4fc3f7]'
           }`}
         >
           Home
@@ -48,8 +48,8 @@ const Footer = () => {
         <span
           className={`mt-1 text-sm ${
             pathname === '/rewards'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+              ? 'text-[#4fc3f7]'
+              : 'text-gray-700 hover:text-[#4fc3f7]'
           }`}
         >
           Rewards
@@ -61,8 +61,8 @@ const Footer = () => {
         <span
           className={`mt-1 text-sm ${
             pathname === '/ask'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+              ? 'text-[#4fc3f7]'
+              : 'text-gray-700 hover:text-[#4fc3f7]'
           }`}
         >
           Ask
@@ -79,8 +79,8 @@ const Footer = () => {
         <span
           className={`mt-1 text-sm ${
             pathname === '/analytics'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+              ? 'text-[#4fc3f7]'
+              : 'text-gray-700 hover:text-[#4fc3f7]'
           }`}
         >
           Analytics
@@ -103,8 +103,8 @@ const Footer = () => {
           className={`mt-1 text-sm ${
             pathname === '/profile/view-profile' ||
             pathname === '/profile/edit-profile'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+              ? 'text-[#4fc3f7]'
+              : 'text-gray-700 hover:text-[#4fc3f7]'
           }`}
         >
           Profile

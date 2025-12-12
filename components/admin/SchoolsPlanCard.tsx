@@ -39,7 +39,7 @@ export function SchoolsPlanCard({
         </div>
         <button
           onClick={onEdit}
-          className="text-[#fd6c22] text-[16px] font-bold tracking-[-0.16px] hover:underline"
+          className="text-[#4fc3f7] text-[16px] font-bold tracking-[-0.16px] hover:underline"
         >
           Edit
         </button>

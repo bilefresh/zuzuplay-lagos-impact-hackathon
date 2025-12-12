@@ -68,7 +68,7 @@ const InsufficientFundsModal: React.FC<InsufficientFundsModalProps> = ({
               <div className="flex items-center justify-center space-x-4 text-sm text-gray-600">
                 <div className="flex items-center space-x-1">
                   <span className="font-medium">Required:</span>
-                  <span className="text-orange-600 font-bold">{requiredCoins}</span>
+                  <span className="text-[#4fc3f7]-600 font-bold">{requiredCoins}</span>
                   <span className="text-yellow-500">🪙</span>
                 </div>
                 <div className="flex items-center space-x-1">
@@ -78,7 +78,7 @@ const InsufficientFundsModal: React.FC<InsufficientFundsModalProps> = ({
                 </div>
               </div>
               <div className="mt-3 p-3 bg-orange-50 rounded-lg border border-orange-200">
-                <p className="text-orange-800 font-medium">
+                <p className="text-[#4fc3f7]-800 font-medium">
                   You need {coinsNeeded} more coins
                 </p>
               </div>

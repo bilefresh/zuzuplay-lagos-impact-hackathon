@@ -144,8 +144,8 @@ const CreateAssessmentWizard = () => {
                 <Save className="w-4 h-4 mr-2" /> Save Draft
             </Button>
             <div className="flex gap-2">
-                <div className={`h-2 w-16 rounded-full ${step >= 1 ? 'bg-[#fd6c22]' : 'bg-gray-200'}`} />
-                <div className={`h-2 w-16 rounded-full ${step >= 2 ? 'bg-[#fd6c22]' : 'bg-gray-200'}`} />
+                <div className={`h-2 w-16 rounded-full ${step >= 1 ? 'bg-[#4fc3f7]' : 'bg-gray-200'}`} />
+                <div className={`h-2 w-16 rounded-full ${step >= 2 ? 'bg-[#4fc3f7]' : 'bg-gray-200'}`} />
             </div>
         </div>
       </div>

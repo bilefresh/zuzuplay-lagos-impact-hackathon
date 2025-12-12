@@ -3,8 +3,8 @@ import logo from '../../assets/icons/logo.svg'
 const SplashScreen = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-white">
-      <Image src={logo} alt={''} />
-      <h1 className="text-3xl font-bold text-orange-500">Zuzuplay</h1>
+      <Image src={logo} alt={''} width={200} />
+      <h1 className="text-3xl font-bold text-[#4fc3f7]">Zuzuplay</h1>
     </div>
   )
 }

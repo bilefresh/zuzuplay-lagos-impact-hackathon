@@ -63,7 +63,7 @@ export function PaymentCard({
         <div className="absolute right-[32px] bottom-[32px]">
           <button
             onClick={onUpdate}
-            className="text-[#fd6c22] text-[16px] font-bold tracking-[-0.16px] hover:underline"
+            className="text-[#4fc3f7] text-[16px] font-bold tracking-[-0.16px] hover:underline"
           >
             Update
           </button>

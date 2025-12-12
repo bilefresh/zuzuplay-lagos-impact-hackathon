@@ -171,7 +171,7 @@ const QuizClient = ({
                   disabled={isLoading || isAnswered}
                   className={`px-4 py-2 rounded-full border text-center ${
                     selectedAnswer === option
-                      ? "bg-[#FD6C22] text-white"
+                      ? "bg-[#4FC3F7] text-white"
                       : "border-gray-400"
                   } ${
                     isAnswered && selectedAnswer !== option ? "opacity-50" : ""

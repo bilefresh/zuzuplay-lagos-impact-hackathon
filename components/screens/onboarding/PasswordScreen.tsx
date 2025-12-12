@@ -87,7 +87,7 @@ const PasswordScreen = () => {
       </div>
       {/* <button
         onClick={handleNext}
-        className="p-3 w-full max-w-xs bg-orange-500 text-white rounded hover:bg-orange-600 mt-60"
+        className="p-3 w-full max-w-xs bg-[#4fc3f7] text-white rounded hover:bg-orange-600 mt-60"
       >
         Continue
       </button> */}

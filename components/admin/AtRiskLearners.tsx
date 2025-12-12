@@ -82,7 +82,7 @@ const AtRiskLearnerItem = ({ learner, onClick }: { learner: AtRiskLearner; onCli
 
 const LoadingState = () => (
   <div className="flex flex-col items-center justify-center py-12">
-    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#fd6c22] mb-4"></div>
+    <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#4fc3f7] mb-4"></div>
     <p className="text-[#9c9c9c] text-sm">Loading learners...</p>
   </div>
 );
@@ -144,7 +144,7 @@ export const AtRiskLearners = ({ learners, isEmpty = false, isLoading = false, o
           <h3 className="text-[#58514d] text-lg font-semibold">At Risk Learners</h3>
           <div className="flex items-center gap-2">
             <span className="text-[#9c9c9c] text-sm">Accuracy rate</span>
-            <div className="w-2 h-2 bg-[#fd6c22] rounded-full"></div>
+            <div className="w-2 h-2 bg-[#4fc3f7] rounded-full"></div>
           </div>
         </div>
         

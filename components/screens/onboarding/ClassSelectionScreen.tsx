@@ -126,7 +126,7 @@ const ClassSelectionScreen = () => {
       </p>
       {/* <button
         onClick={handleNext}
-        className="p-3 w-full max-w-xs bg-orange-500 text-white rounded hover:bg-orange-600 "
+        className="p-3 w-full max-w-xs bg-[#4fc3f7] text-white rounded hover:bg-orange-600 "
       >
         Continue
       </button> */}

@@ -184,7 +184,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({ question, onAnswer, difficu
           </p>
           <div className="mt-3 flex justify-center sm:justify-end">
             <Link href={`/ask/zuzuplay?q=${encodeURIComponent(question.question)}`}>
-              <span className={`${responsiveStyles.fontSize.badge} px-3 sm:px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-full transition-colors`}>
+              <span className={`${responsiveStyles.fontSize.badge} px-3 sm:px-4 py-2 bg-[#4fc3f7] hover:bg-orange-600 text-white rounded-full transition-colors`}>
                 Learn More
               </span>
             </Link>

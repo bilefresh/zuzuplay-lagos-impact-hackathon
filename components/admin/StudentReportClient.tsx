@@ -61,7 +61,7 @@ export default function StudentReportClient() {
     return (
       <AdminLayout title="Student Report" requiredRole="admin">
         <div className="flex items-center justify-center h-64">
-          <div className="w-8 h-8 border-4 border-[#fd6c22] border-t-transparent rounded-full animate-spin" />
+          <div className="w-8 h-8 border-4 border-[#4fc3f7] border-t-transparent rounded-full animate-spin" />
         </div>
       </AdminLayout>
     );
@@ -103,7 +103,7 @@ export default function StudentReportClient() {
           {/* Accuracy Rate */}
           <div className="bg-white rounded-lg border border-[#d5d7d5] p-6">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-[#fd6c22] rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-[#4fc3f7] rounded-full flex items-center justify-center">
                 <TrendingUp className="w-5 h-5 text-white" />
               </div>
               <div>
@@ -116,7 +116,7 @@ export default function StudentReportClient() {
           {/* Time Spent */}
           <div className="bg-white rounded-lg border border-[#d5d7d5] p-6">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-[#fd6c22] rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-[#4fc3f7] rounded-full flex items-center justify-center">
                 <Clock className="w-5 h-5 text-white" />
               </div>
               <div>
@@ -129,7 +129,7 @@ export default function StudentReportClient() {
           {/* Questions Answered */}
           <div className="bg-white rounded-lg border border-[#d5d7d5] p-6">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-[#fd6c22] rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-[#4fc3f7] rounded-full flex items-center justify-center">
                 <FileText className="w-5 h-5 text-white" />
               </div>
               <div>
@@ -202,13 +202,13 @@ export default function StudentReportClient() {
           {/* Focus Areas */}
           <div className="bg-white rounded-lg border border-[#d5d7d5] p-6">
             <div className="flex items-center gap-2 mb-4">
-              <Target className="w-5 h-5 text-[#fd6c22]" />
+              <Target className="w-5 h-5 text-[#4fc3f7]" />
               <h4 className="text-[#291b13] font-semibold">Focus Areas</h4>
             </div>
             <div className="space-y-2">
               {report.insights.improvementAreas.map((area, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-[#fd6c22] rounded-full" />
+                  <div className="w-2 h-2 bg-[#4fc3f7] rounded-full" />
                   <span className="text-[#58514d] text-sm">{area}</span>
                 </div>
               ))}

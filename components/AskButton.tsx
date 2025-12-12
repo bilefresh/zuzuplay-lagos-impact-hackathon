@@ -13,7 +13,7 @@ const AskButton = () => {
       className="flex flex-col items-center justify-center bg-[#FFE4D7] rounded-lg p-3 w-24"
     >
       <Image src={ask} alt="" className="w-10 h-10" />
-      <p className="font-bold text-[#FD6C22] text-base">Ask Zuzuplay</p>
+      <p className="font-bold text-[#4FC3F7] text-base">Ask Zuzuplay</p>
     </button>
   )
 }
