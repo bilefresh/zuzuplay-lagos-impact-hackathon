@@ -116,7 +116,7 @@ const DashboardScreen = () => {
       teacher: "Ms. Johnson",
       studentCount: 15,
     };
-    
+
     // Simulate checking for active class time
     const checkActiveClass = () => {
       // This would be an actual API call to check if there's an active class
@@ -125,12 +125,12 @@ const DashboardScreen = () => {
         setActiveClassTime(mockActiveClass);
       }
     };
-    
+
     checkActiveClass();
   }, []);
 
   return (
-    <div>
+    <div className="p-10">
       <div className="flex items-center justify-between">
         <div
           className="flex items-center space-x-3 cursor-pointer"
@@ -154,27 +154,35 @@ const DashboardScreen = () => {
           }}
         >
           <Image src={coin} alt={""} className="w-10 h-10 object-cover" />
-          <p>{user ? getCoinBalance(): "-"}</p>
+          <p>{user ? getCoinBalance() : "-"}</p>
         </div>
       </div>
-      
 
-      <h2 className="my-4 font-bold text-[#58514D]">
+      <h2 className="my-4 font-bold text-lg text-[#58514D]">
         What do you want to learn today?
       </h2>
-      <div className="flex flex-col justify-center space-y-5 text-white">
+      <div className="flex flex-col justify-center space-y-4 text-white">
         {subject.map((subject) => (
-          <div key={subject.id}>
+          <div key={subject.id} className="group px-6">
             <Link
-              // href={`/learning/${subject.name}`}
               href={subject.href}
-              className={`flex h-[85px] items-center justify-between rounded-xl pl-5 pr-2 py-2 ${subject.color}`}
+              className="flex h-[85px] items-center justify-between rounded-xl pl-5 pr-2 py-2 backdrop-blur-2xl border-2 border-cyan-200/40 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden"
+              style={{
+                background: "rgba(135, 206, 235, 0.25)",
+                boxShadow:
+                  "inset 0 1px 0 0 rgba(255,255,255,0.4), 0 8px 24px rgba(135, 206, 235, 0.15)",
+              }}
             >
-              <h3 className="text-md font-bold text-center">{subject.name}</h3>
+              {/* Icy shimmer effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/15 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:animate-shimmer"></div>
+
+              <h3 className="text-lg font-bold text-center text-blue-900 drop-shadow-md relative z-10">
+                {subject.name}
+              </h3>
               <Image
                 src={subject.image}
                 alt={subject.name}
-                className={subject.class}
+                className={`${subject.class} relative z-10 drop-shadow-md`}
                 width={150}
                 height={150}
               />
@@ -185,18 +193,20 @@ const DashboardScreen = () => {
 
       {/* Active Class Time Display */}
       {activeClassTime && (
-        <div className="mb-6 mt-10 bg-[#fff6f2] border border-[#fd6c22] rounded-xl p-4">
+        <div className="mb-6 mt-14 bg-[#fff6f2] border border-secondary rounded-xl p-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-[#fd6c22] rounded-full flex items-center justify-center">
+              <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center">
                 <Clock className="w-5 h-5 text-white" />
               </div>
               <div>
                 <h3 className="text-[#291b13] font-semibold text-lg">
-                  Live Class: {activeClassTime.subject} - {activeClassTime.topic}
+                  Live Class: {activeClassTime.subject} -{" "}
+                  {activeClassTime.topic}
                 </h3>
                 <p className="text-[#58514d] text-sm">
-                  with {activeClassTime.teacher} • {activeClassTime.studentCount} students
+                  with {activeClassTime.teacher} •{" "}
+                  {activeClassTime.studentCount} students
                 </p>
               </div>
             </div>
@@ -205,7 +215,7 @@ const DashboardScreen = () => {
                 // Navigate to the active class
                 window.location.href = `/learning/${activeClassTime.subject}`;
               }}
-              className="bg-[#fd6c22] hover:bg-[#d4662d] text-white px-4 py-2 rounded-lg font-semibold transition-colors"
+              className="bg-secondary hover:bg-secondary/80 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
             >
               Join Class
             </button>

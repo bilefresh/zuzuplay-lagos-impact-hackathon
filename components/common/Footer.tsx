@@ -1,37 +1,37 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import Image from 'next/image'
-import { usePathname } from 'next/navigation' // Use usePathname instead of useRouter
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation"; // Use usePathname instead of useRouter
 
 // Importing both regular and active icons
-import homeIcon from '../../assets/icons/home.svg'
-import homeIconActive from '../../assets/icons/home-active.svg'
-import rewardsIcon from '../../assets/icons/rewards.svg'
-import rewardsIconActive from '../../assets/icons/rewards-active.svg'
-import askIcon from '../../assets/icons/ask.svg'
-import analyticsIcon from '../../assets/icons/analytics.svg'
-import analyticsIconActive from '../../assets/icons/analytics-active.svg'
-import profileIcon from '../../assets/icons/profile.svg'
-import profileIconActive from '../../assets/icons/profile-active.svg'
+import homeIcon from "../../assets/icons/home.svg";
+import homeIconActive from "../../assets/icons/home-active.svg";
+import rewardsIcon from "../../assets/icons/rewards.svg";
+import rewardsIconActive from "../../assets/icons/rewards-active.svg";
+import askIcon from "../../assets/icons/logo.svg";
+import analyticsIcon from "../../assets/icons/analytics.svg";
+import analyticsIconActive from "../../assets/icons/analytics-active.svg";
+import profileIcon from "../../assets/icons/profile.svg";
+import profileIconActive from "../../assets/icons/profile-active.svg";
 
 const Footer = () => {
-  const pathname = usePathname() // Get the current pathname
+  const pathname = usePathname(); // Get the current pathname
 
   return (
     <footer className="fixed bottom-0 left-0 right-0 p-4 bg-white shadow-md border-t flex justify-around">
       <Link href="/learning/dashboard" className="flex flex-col items-center">
         <Image
-          src={pathname === '/learning/dashboard' ? homeIconActive : homeIcon}
+          src={pathname === "/learning/dashboard" ? homeIconActive : homeIcon}
           alt="Home"
           width={24}
           height={24}
         />
         <span
           className={`mt-1 text-sm ${
-            pathname === '/learning/dashboard'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+            pathname === "/learning/dashboard"
+              ? "text-primary"
+              : "text-gray-700 hover:text-primary"
           }`}
         >
           Home
@@ -40,16 +40,16 @@ const Footer = () => {
 
       <Link href="/rewards" className="flex flex-col items-center">
         <Image
-          src={pathname === '/rewards' ? rewardsIconActive : rewardsIcon}
+          src={pathname === "/rewards" ? rewardsIconActive : rewardsIcon}
           alt="Rewards"
           width={24}
           height={24}
         />
         <span
           className={`mt-1 text-sm ${
-            pathname === '/rewards'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+            pathname === "/rewards"
+              ? "text-primary"
+              : "text-gray-700 hover:text-primary"
           }`}
         >
           Rewards
@@ -60,9 +60,9 @@ const Footer = () => {
         <Image src={askIcon} alt="Ask" width={24} height={24} />
         <span
           className={`mt-1 text-sm ${
-            pathname === '/ask'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+            pathname === "/ask"
+              ? "text-primary"
+              : "text-gray-700 hover:text-primary"
           }`}
         >
           Ask
@@ -71,16 +71,16 @@ const Footer = () => {
 
       <Link href="/analytics" className="flex flex-col items-center">
         <Image
-          src={pathname === '/analytics' ? analyticsIconActive : analyticsIcon}
+          src={pathname === "/analytics" ? analyticsIconActive : analyticsIcon}
           alt="Analytics"
           width={24}
           height={24}
         />
         <span
           className={`mt-1 text-sm ${
-            pathname === '/analytics'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+            pathname === "/analytics"
+              ? "text-primary"
+              : "text-gray-700 hover:text-primary"
           }`}
         >
           Analytics
@@ -90,8 +90,8 @@ const Footer = () => {
       <Link href="/profile/view-profile" className="flex flex-col items-center">
         <Image
           src={
-            pathname === '/profile/view-profile' ||
-            pathname === '/profile/edit-profile'
+            pathname === "/profile/view-profile" ||
+            pathname === "/profile/edit-profile"
               ? profileIconActive
               : profileIcon
           }
@@ -101,17 +101,17 @@ const Footer = () => {
         />
         <span
           className={`mt-1 text-sm ${
-            pathname === '/profile/view-profile' ||
-            pathname === '/profile/edit-profile'
-              ? 'text-orange-500'
-              : 'text-gray-700 hover:text-orange-500'
+            pathname === "/profile/view-profile" ||
+            pathname === "/profile/edit-profile"
+              ? "text-primary"
+              : "text-gray-700 hover:text-primary"
           }`}
         >
           Profile
         </span>
       </Link>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
