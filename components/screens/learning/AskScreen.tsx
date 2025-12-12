@@ -164,14 +164,21 @@ const AskScreen: React.FC = () => {
           </p>
 
           {/* Suggested Questions Section */}
-          {/* Suggested Questions Section */}
-          <div className="mt-10 w-full max-w-md">
-            <p className="text-sm text-gray-500 mb-3 px-2">Suggested</p>
-            <div className="space-y-2">
+          <div className="mt-10 w-full max-w-2xl">
+            <div className="flex items-center justify-between mb-4 px-1">
+              <p className="text-sm font-semibold text-gray-600">
+                Suggested Questions
+              </p>
+              <span className="text-xs px-3 py-1 rounded-full bg-gradient-to-r from-sky-100 to-cyan-100 text-sky-700 font-semibold border border-sky-200/50">
+                Popular
+              </span>
+            </div>
+            <div className="grid gap-3 sm:grid-cols-2">
               {[
                 "What is algebra?",
                 "How do I solve equations?",
                 "Can you explain fractions?",
+                "Show me a worked example",
               ].map((question, i) => (
                 <button
                   key={i}
@@ -179,12 +186,17 @@ const AskScreen: React.FC = () => {
                     setInputValue(question);
                     setTimeout(() => handleSendMessage(), 100);
                   }}
-                  className="w-full backdrop-blur-md bg-white/60 hover:bg-white/80 border border-white/40 hover:border-white/60 rounded-xl px-4 py-3 transition-all duration-200 text-left shadow-lg hover:shadow-xl"
-                  style={{
-                    boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.15)",
-                  }}
+                  className="group relative w-full text-left rounded-2xl px-5 py-4 bg-white hover:bg-gradient-to-br hover:from-white hover:to-sky-50 border border-gray-200/60 hover:border-sky-300/60 backdrop-blur-sm shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                 >
-                  <span className="text-gray-700 text-sm">{question}</span>
+                  <div className="flex items-start gap-3">
+                    <span className="text-2xl group-hover:scale-110 transition-transform duration-300">
+                      💬
+                    </span>
+                    <span className="text-gray-800 text-sm font-medium leading-relaxed pt-1">
+                      {question}
+                    </span>
+                  </div>
+                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-sky-400/0 via-sky-400/5 to-cyan-400/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
                 </button>
               ))}
             </div>
