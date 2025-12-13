@@ -59,6 +59,7 @@ const AskScreen: React.FC = () => {
   const [inputValue, setInputValue] = useState<string>("");
   const [isThinking, setIsThinking] = useState<boolean>(false);
   const [savedGameState, setSavedGameState] = useState<any>(null);
+  const [isRecording, setIsRecording] = useState<boolean>(false);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -127,6 +128,23 @@ const AskScreen: React.FC = () => {
     setInputValue(e.target.value);
   };
 
+  // Start voice recording (simulation)
+  const handleStartRecording = () => {
+    setIsRecording(true);
+  };
+
+  // Confirm recording: just show the input
+  const handleConfirmRecording = () => {
+    setIsRecording(false);
+    // Input value remains as is, user can submit it
+  };
+
+  // Cancel recording: clear input and stop
+  const handleCancelRecording = () => {
+    setInputValue("");
+    setIsRecording(false);
+  };
+
   // Auto-scroll to bottom when messages change or thinking state changes
   useEffect(() => {
     if (chatContainerRef.current) {
@@ -134,6 +152,17 @@ const AskScreen: React.FC = () => {
         chatContainerRef.current.scrollHeight;
     }
   }, [messages, isThinking]);
+
+  // Bounce animation for bear icon
+  useEffect(() => {
+    const bearIconElement = document.getElementById("bear-icon");
+    if (bearIconElement) {
+      bearIconElement.classList.add("animate-bounce");
+      setTimeout(() => {
+        bearIconElement.classList.remove("animate-bounce");
+      }, 1000); // Duration of the bounce animation
+    }
+  }, []);
 
   return (
     <div className="flex flex-col h-screen bg-white">
@@ -155,24 +184,68 @@ const AskScreen: React.FC = () => {
         )}
       </div>
 
+      {/* Floating controls like ChatGPT when recording */}
+      {isRecording && (
+        <div className="fixed top-24 left-0 right-0 z-30 flex items-center justify-center gap-4">
+          <button
+            onClick={handleConfirmRecording}
+            className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full shadow"
+            aria-label="Confirm voice input"
+          >
+            {/* Microphone icon */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M12 14a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v5a3 3 0 0 0 3 3Zm5-3a5 5 0 1 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2Z" />
+            </svg>
+            Use voice
+          </button>
+          <button
+            onClick={handleCancelRecording}
+            className="flex items-center gap-2 bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded-full shadow"
+            aria-label="Cancel voice input"
+          >
+            {/* X icon */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M6.225 4.811 4.811 6.225 10.586 12l-5.775 5.775 1.414 1.414L12 13.414l5.775 5.775 1.414-1.414L13.414 12l5.775-5.775-1.414-1.414L12 10.586 6.225 4.811Z" />
+            </svg>
+            Cancel
+          </button>
+        </div>
+      )}
+
       {messages.length === 0 ? (
-        // Introductory Section
+        // Introductory Section with single bear icon
         <div className="flex flex-1 flex-col items-center justify-center mt-20 z-10 px-4">
-          <Image src={bearIcon} width={100} height={100} alt={"Ask Icon"} />
+          <div className="relative">
+            <Image
+              id="bear-icon"
+              src={bearIcon}
+              width={100}
+              height={100}
+              alt={"Ask Icon"}
+            />
+            {isRecording && (
+              <>
+                <span className="absolute inset-0 rounded-full ring-4 ring-white/70" />
+                <span className="absolute inset-0 rounded-full animate-ping ring-4 ring-white/60" />
+              </>
+            )}
+          </div>
           <p className="text-lg max-w-xs text-center mt-5 text-gray-700 font-semibold">
             Ask Zuzuplay any question you have about the topic
           </p>
 
           {/* Suggested Questions Section */}
           <div className="mt-10 w-full max-w-2xl">
-            <div className="flex items-center justify-between mb-4 px-1">
-              <p className="text-sm font-semibold text-gray-600">
-                Suggested Questions
-              </p>
-              <span className="text-xs px-3 py-1 rounded-full bg-gradient-to-r from-sky-100 to-cyan-100 text-sky-700 font-semibold border border-sky-200/50">
-                Popular
-              </span>
-            </div>
             <div className="grid gap-3 sm:grid-cols-2">
               {[
                 "What is algebra?",
@@ -273,14 +346,19 @@ const AskScreen: React.FC = () => {
         </div>
       )}
 
-      {/* Input Area */}
-      <div className="fixed inset-x-0 bottom-0 border-t border-gray-300 bg-white p-4 z-20">
-        <AskInput
-          value={inputValue}
-          onChange={handleInputChange}
-          onSubmit={handleSendMessage}
-        />
-      </div>
+      {/* Input Area: hide while recording */}
+      {!isRecording && (
+        <div className="fixed inset-x-0 bottom-0 border-t border-gray-300 bg-white p-4 z-20">
+          <AskInput
+            value={inputValue}
+            onChange={handleInputChange}
+            onSubmit={handleSendMessage}
+            // recording controls
+            isRecording={isRecording}
+            onStartRecording={handleStartRecording}
+          />
+        </div>
+      )}
     </div>
   );
 };
